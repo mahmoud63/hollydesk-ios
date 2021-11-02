@@ -1,0 +1,42 @@
+
+/* Class = "UITextField"; placeholder = "Bank Name"; ObjectID = "0uF-K6-iI4"; */
+"0uF-K6-iI4.placeholder" = "اسم البنك";
+
+/* Class = "UILabel"; text = "+2"; ObjectID = "2ll-Nc-IHP"; */
+"2ll-Nc-IHP.text" = "+2";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "9xn-7t-shb"; */
+"9xn-7t-shb.text" = "رقم الهاتف";
+
+/* Class = "UITextField"; placeholder = "Bank Address"; ObjectID = "AI6-zB-Uwt"; */
+"AI6-zB-Uwt.placeholder" = "عنوان البنك";
+
+/* Class = "UIButton"; normalTitle = "PROCEED TO CASHOUT"; ObjectID = "HDA-cY-QwG"; */
+"HDA-cY-QwG.normalTitle" = "متابعة صرف المستحقات";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "Kb1-KB-xtH"; */
+"Kb1-KB-xtH.text" = "الاسم بالكامل";
+
+/* Class = "UILabel"; text = "Bank Name"; ObjectID = "PdL-La-5J9"; */
+"PdL-La-5J9.text" = "اسم البنك";
+
+/* Class = "UITextField"; placeholder = "Bank Account Number"; ObjectID = "S0h-GO-qwr"; */
+"S0h-GO-qwr.placeholder" = "رقم الحساب البنكي";
+
+/* Class = "UILabel"; text = "Select Cash Information"; ObjectID = "XQd-5t-bkn"; */
+"XQd-5t-bkn.text" = "معلومات صرف المستحقات";
+
+/* Class = "UILabel"; text = "Bank Address"; ObjectID = "Zvd-eB-KI4"; */
+"Zvd-eB-KI4.text" = "عنوان البنك";
+
+/* Class = "UILabel"; text = "Select Cash Out Method"; ObjectID = "ejy-4A-CVC"; */
+"ejy-4A-CVC.text" = "اختر طريقة صرف المستحقات";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "gWP-3Q-9Zn"; */
+"gWP-3Q-9Zn.placeholder" = "رقم الهاتف";
+
+/* Class = "UILabel"; text = "Bank Account Number"; ObjectID = "hst-aO-AV2"; */
+"hst-aO-AV2.text" = "رقم الحساب البنكي";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "ox6-VM-pQb"; */
+"ox6-VM-pQb.placeholder" = "الاسم بالكامل";

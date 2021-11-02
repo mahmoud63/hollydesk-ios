@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Approve"; ObjectID = "0IW-p8-ho9"; */
+"0IW-p8-ho9.normalTitle" = "قبول";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "0xc-hH-sHf"; */
+"0xc-hH-sHf.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "3Px-IS-987"; */
+"3Px-IS-987.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "4I5-LV-Sma"; */
+"4I5-LV-Sma.text" = "-";
+
+/* Class = "UILabel"; text = "PAID ON"; ObjectID = "4hV-cY-8b0"; */
+"4hV-cY-8b0.text" = "مدفوع فى تاريخ";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "7NZ-sG-WEA"; */
+"7NZ-sG-WEA.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Deny"; ObjectID = "9SL-2a-qIA"; */
+"9SL-2a-qIA.normalTitle" = "الغاء";
+
+/* Class = "UILabel"; text = "SUBMISSION DATE"; ObjectID = "Mp1-Ez-yAk"; */
+"Mp1-Ez-yAk.text" = "تاريخ تأكيد الطلب";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "dU3-bC-HdC"; */
+"dU3-bC-HdC.text" = "-";
+
+/* Class = "UILabel"; text = "SERVICE PAID FOR"; ObjectID = "irY-9M-Dpc"; */
+"irY-9M-Dpc.text" = "تم الدفع من اجل";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "kHf-xf-DtQ"; */
+"kHf-xf-DtQ.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "tF3-Vy-dHi"; */
+"tF3-Vy-dHi.text" = "-";
+
+/* Class = "UILabel"; text = "RECEIPT"; ObjectID = "xdF-mw-9VR"; */
+"xdF-mw-9VR.text" = "الإيصال";

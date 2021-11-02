@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Reimbursement requests"; ObjectID = "51J-iz-prd"; */
+"51J-iz-prd.text" = "طلبات السداد";
+
+/* Class = "UILabel"; text = "Review and approve your team's reimbursement requests free of any manual processes"; ObjectID = "Njt-Ep-eyb"; */
+"Njt-Ep-eyb.text" = "تابع مصاريف السداد لفريقك من غير اى موافقات يدوية وبكل سهولة";
+
+/* Class = "UILabel"; text = "SELECT TYPE OF REQUESTS"; ObjectID = "T2a-mZ-iQQ"; */
+"T2a-mZ-iQQ.text" = "اختار نوع الطلب";
+
+/* Class = "UILabel"; text = "In advance request"; ObjectID = "hgP-Fd-bJs"; */
+"hgP-Fd-bJs.text" = "طلبات الدفع مقدما";
+
+/* Class = "UILabel"; text = "I want to request money in advance for company expenses and then reconcile"; ObjectID = "u5Z-VI-Xxh"; */
+"u5Z-VI-Xxh.text" = "تابع مصاريف الدفع مقدما لفريقك من غير أى موافقات يدوية وبكل سهولة";

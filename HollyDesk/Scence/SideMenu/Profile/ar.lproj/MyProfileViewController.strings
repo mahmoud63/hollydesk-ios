@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Work Title"; ObjectID = "9up-zM-VXW"; */
+"9up-zM-VXW.text" = "المسمي الوظيفي";
+
+/* Class = "UILabel"; text = "Teamwork"; ObjectID = "Kh6-sn-V6a"; */
+"Kh6-sn-V6a.text" = "اسم فريق العمل";
+
+/* Class = "UILabel"; text = "Last Name"; ObjectID = "Nm4-rq-BRU"; */
+"Nm4-rq-BRU.text" = "اسم العائله";
+
+/* Class = "UIButton"; normalTitle = "Upload Profile Picture"; ObjectID = "TiV-Sl-ees"; */
+"TiV-Sl-ees.normalTitle" = "تحميل صورة الملف الشخصي";
+
+/* Class = "UILabel"; text = "want to change your teamwork?Contact your HR Manager to change it for you."; ObjectID = "Uin-jd-70F"; */
+"Uin-jd-70F.text" = "تريد تغيير العمل الجماعي الخاص بك؟ اتصل بمدير الموارد البشرية الخاص بك لتغييره لك.";
+
+/* Class = "UILabel"; text = "First Name"; ObjectID = "YvA-Gi-CJm"; */
+"YvA-Gi-CJm.text" = "الاسم الاول";
+
+/* Class = "UILabel"; text = "want to change your teamwork?Contact your HR Manager to change it for you."; ObjectID = "q4D-QJ-9Ju"; */
+"q4D-QJ-9Ju.text" = "تريد تغيير العمل الجماعي الخاص بك؟ اتصل بمدير الموارد البشرية الخاص بك لتغييره لك.";
+
+/* Class = "UILabel"; text = "Role"; ObjectID = "ufx-89-R5c"; */
+"ufx-89-R5c.text" = "وظيفة";
+
+/* Class = "UIButton"; normalTitle = "UPLOAD PROFILE CHANGES"; ObjectID = "zgw-MN-C9O"; */
+"zgw-MN-C9O.normalTitle" = "تعديل الملف الشخصي";

@@ -1,0 +1,1753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6609D15A2699DF1300F04A39 /* Entitiments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6609D1592699DF1300F04A39 /* Entitiments.plist */; };
+		6609D1612699FC8000F04A39 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609D15F2699FC8000F04A39 /* HomeViewController.swift */; };
+		6609D1672699FE3E00F04A39 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609D1652699FE3E00F04A39 /* HomeTableViewCell.swift */; };
+		6609D16A269A018400F04A39 /* Extension+HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609D169269A018400F04A39 /* Extension+HomeVC.swift */; };
+		6609D16C269A060F00F04A39 /* sideMenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609D16B269A060F00F04A39 /* sideMenue.swift */; };
+		6609D171269A41D800F04A39 /* ClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6609D16F269A41D800F04A39 /* ClaimViewController.swift */; };
+		660D6F2D27080DC6006D27CE /* ManagerRequestsTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F2B27080DC6006D27CE /* ManagerRequestsTypeViewController.swift */; };
+		660D6F2F27080F29006D27CE /* ManagerRequestsTypeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660D6F3127080F29006D27CE /* ManagerRequestsTypeViewController.xib */; };
+		660D6F3A270812E7006D27CE /* ManagerReimbursementRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F38270812E7006D27CE /* ManagerReimbursementRequestsViewController.swift */; };
+		660D6F3E2708130F006D27CE /* ManagerReimbursementRequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F3C2708130F006D27CE /* ManagerReimbursementRequestsTableViewCell.swift */; };
+		660D6F40270813B5006D27CE /* ManagerReimbursementRequestsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660D6F42270813B5006D27CE /* ManagerReimbursementRequestsViewController.xib */; };
+		660D6F46270813E9006D27CE /* Api+ManagerReimbursementRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F45270813E9006D27CE /* Api+ManagerReimbursementRequestsViewController.swift */; };
+		660D6F48270813F5006D27CE /* Extension+ManagerReimbursementRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F47270813F5006D27CE /* Extension+ManagerReimbursementRequestsViewController.swift */; };
+		660D6F4A270813FE006D27CE /* Swiper+ManagerReimbursementRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F49270813FE006D27CE /* Swiper+ManagerReimbursementRequestsViewController.swift */; };
+		660D6F4B2708146D006D27CE /* ManagerReimbursementRequestsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660D6F4D2708146D006D27CE /* ManagerReimbursementRequestsTableViewCell.xib */; };
+		660D6F5427083544006D27CE /* ManagerAdvanceRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F5227083544006D27CE /* ManagerAdvanceRequestsViewController.swift */; };
+		660D6F572708354E006D27CE /* Api+ManagerAdvanceRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F562708354E006D27CE /* Api+ManagerAdvanceRequests.swift */; };
+		660D6F5927083556006D27CE /* Extension+ManagerAdvanceRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F5827083556006D27CE /* Extension+ManagerAdvanceRequests.swift */; };
+		660D6F5B27083561006D27CE /* Swiper+ManagerAdvanceRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F5A27083561006D27CE /* Swiper+ManagerAdvanceRequests.swift */; };
+		660D6F5E27083572006D27CE /* ManagerAdvanceRequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F5C27083572006D27CE /* ManagerAdvanceRequestsTableViewCell.swift */; };
+		660D6F6027083601006D27CE /* ManagerAdvanceRequestsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660D6F6227083601006D27CE /* ManagerAdvanceRequestsViewController.xib */; };
+		660D6F6527083689006D27CE /* ManagerAdvanceRequestsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660D6F6727083689006D27CE /* ManagerAdvanceRequestsTableViewCell.xib */; };
+		660D6F7227083DBD006D27CE /* ManagerReimbursementRequestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F7027083DBD006D27CE /* ManagerReimbursementRequestDetailsViewController.swift */; };
+		660D6F7527083DC7006D27CE /* Api+ManagerReimbursementRequestDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F7427083DC7006D27CE /* Api+ManagerReimbursementRequestDetails.swift */; };
+		660D6F7727083DCE006D27CE /* Extension+ManagerReimbursementRequestDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F7627083DCE006D27CE /* Extension+ManagerReimbursementRequestDetails.swift */; };
+		660D6F7A27083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F7827083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.swift */; };
+		660D6F7B27083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660D6F7927083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.xib */; };
+		660D6F81270846BC006D27CE /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F80270846BC006D27CE /* UIButton+.swift */; };
+		660D6F8327085A07006D27CE /* RequestDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F8227085A07006D27CE /* RequestDetailsModel.swift */; };
+		660D6F8527087349006D27CE /* Api+ReimbursementRequestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660D6F8427087349006D27CE /* Api+ReimbursementRequestDetailsViewController.swift */; };
+		6612248726DEB59200DA281E /* InAdvanceRequestDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6612248926DEB59200DA281E /* InAdvanceRequestDetailsViewController.xib */; };
+		66160AB2269F80F600D6BBD6 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66160AB1269F80F600D6BBD6 /* HomeModel.swift */; };
+		66160AB4269F825500D6BBD6 /* Api+HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66160AB3269F825500D6BBD6 /* Api+HomeVC.swift */; };
+		661A582926A8A40E00685C8C /* AddRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661A582826A8A40E00685C8C /* AddRequestModel.swift */; };
+		661A582B26A8A46C00685C8C /* Api+AddReimbursementClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661A582A26A8A46C00685C8C /* Api+AddReimbursementClaimViewController.swift */; };
+		661A583126A9150300685C8C /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661A582F26A9150300685C8C /* WalletViewController.swift */; };
+		661B45E326D354C600F71500 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 661B45E526D354C600F71500 /* Localizable.strings */; };
+		661B45E626D356A700F71500 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B45E826D356A700F71500 /* LoginViewController.xib */; };
+		661B45EB26D3577100F71500 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B45ED26D3577100F71500 /* HomeTableViewCell.xib */; };
+		661B45F026D3579D00F71500 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B45F226D3579D00F71500 /* HomeViewController.xib */; };
+		661B45F526D3581700F71500 /* ClaimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B45F726D3581700F71500 /* ClaimViewController.xib */; };
+		661B45FA26D358A500F71500 /* ReimbursementClaimTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B45FC26D358A500F71500 /* ReimbursementClaimTableViewCell.xib */; };
+		661B45FF26D358BB00F71500 /* ReimbursementClaimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B460126D358BB00F71500 /* ReimbursementClaimViewController.xib */; };
+		661B460426D358EB00F71500 /* AdvanceClaimTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B460626D358EB00F71500 /* AdvanceClaimTableViewCell.xib */; };
+		661B460926D3591300F71500 /* AdvanceClaimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B460B26D3591300F71500 /* AdvanceClaimViewController.xib */; };
+		661B461326D359C000F71500 /* AddReimbursementClaimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B461526D359C000F71500 /* AddReimbursementClaimViewController.xib */; };
+		661B461826D35AA000F71500 /* AddAdvanceClaimViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B461A26D35AA000F71500 /* AddAdvanceClaimViewController.xib */; };
+		661B461D26D35B3800F71500 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B461F26D35B3800F71500 /* SideMenuViewController.xib */; };
+		661B462226D35B5B00F71500 /* WalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B462426D35B5B00F71500 /* WalletViewController.xib */; };
+		661B462726D35C0E00F71500 /* PaymentWayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661B462926D35C0E00F71500 /* PaymentWayViewController.xib */; };
+		6635D1D42693FC70004FC4F4 /* TabbarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6635D1D32693FC70004FC4F4 /* TabbarManager.swift */; };
+		663BE9EA26DAB1610058544A /* ReimbursementRequestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BE9E826DAB1610058544A /* ReimbursementRequestDetailsViewController.swift */; };
+		663BE9ED26DAB1940058544A /* Extension+ReimbursementRequestDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BE9EC26DAB1940058544A /* Extension+ReimbursementRequestDetailsVC.swift */; };
+		663BE9F026DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BE9EE26DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.swift */; };
+		663BE9F126DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663BE9EF26DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.xib */; };
+		663BE9F226DAB3160058544A /* ReimbursementRequestDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663BE9F426DAB3160058544A /* ReimbursementRequestDetailsViewController.xib */; };
+		663BE9FD26DAB49B0058544A /* InAdvanceRequestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BE9FB26DAB49B0058544A /* InAdvanceRequestDetailsViewController.swift */; };
+		663BEA0026DAB4AA0058544A /* Extension+InAdvanceRequestDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BE9FF26DAB4AA0058544A /* Extension+InAdvanceRequestDetailsVC.swift */; };
+		663BEA0326DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BEA0126DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.swift */; };
+		663BEA0426DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 663BEA0226DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.xib */; };
+		663BEA0626DAB8A80058544A /* Api+InAdvanceRequestDEtails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663BEA0526DAB8A80058544A /* Api+InAdvanceRequestDEtails.swift */; };
+		663D30432690625D0057043A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30422690625D0057043A /* AppDelegate.swift */; };
+		663D30452690625E0057043A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30442690625E0057043A /* SceneDelegate.swift */; };
+		663D30472690625E0057043A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30462690625E0057043A /* ViewController.swift */; };
+		663D304A2690625E0057043A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D30482690625E0057043A /* Main.storyboard */; };
+		663D304C2690625E0057043A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663D304B2690625E0057043A /* Assets.xcassets */; };
+		663D304F2690625E0057043A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663D304D2690625E0057043A /* LaunchScreen.storyboard */; };
+		663D30F326906A3A0057043A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30C026906A3A0057043A /* UIView+Extension.swift */; };
+		663D30F426906A3A0057043A /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30C126906A3A0057043A /* GradientButton.swift */; };
+		663D30F526906A3A0057043A /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30C226906A3A0057043A /* CircleView.swift */; };
+		663D30F626906A3A0057043A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30C426906A3A0057043A /* Constants.swift */; };
+		663D30F726906A3A0057043A /* UIApplication + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30C526906A3A0057043A /* UIApplication + Extension.swift */; };
+		663D30F826906A3A0057043A /* HandelNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30C626906A3A0057043A /* HandelNavigation.swift */; };
+		663D30F926906A3A0057043A /* LoadingButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30C726906A3A0057043A /* LoadingButtons.swift */; };
+		663D30FA26906A3A0057043A /* UserDefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30C826906A3A0057043A /* UserDefaultData.swift */; };
+		663D30FB26906A3A0057043A /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30C926906A3A0057043A /* AlertMessage.swift */; };
+		663D30FC26906A3A0057043A /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30CA26906A3A0057043A /* Date+Extension.swift */; };
+		663D30FD26906A3A0057043A /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30CC26906A3A0057043A /* AppImage.swift */; };
+		663D30FE26906A3A0057043A /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30CD26906A3A0057043A /* Messages.swift */; };
+		663D30FF26906A3A0057043A /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30CE26906A3A0057043A /* AppColor.swift */; };
+		663D310026906A3A0057043A /* StoryBoardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30CF26906A3A0057043A /* StoryBoardViews.swift */; };
+		663D310126906A3A0057043A /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30D026906A3A0057043A /* URLs.swift */; };
+		663D310226906A3A0057043A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30D226906A3A0057043A /* String+Extension.swift */; };
+		663D310326906A3A0057043A /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30D326906A3A0057043A /* String + Extension.swift */; };
+		663D310426906A3A0057043A /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30D426906A3A0057043A /* TableView+Extension.swift */; };
+		663D310526906A3A0057043A /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30D526906A3A0057043A /* FloatLabelTextField.swift */; };
+		663D310626906A3A0057043A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30D626906A3A0057043A /* UIViewController+Extension.swift */; };
+		663D310726906A3A0057043A /* Scroll+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30D726906A3A0057043A /* Scroll+Extension.swift */; };
+		663D310826906A3A0057043A /* ExtensionLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30D826906A3A0057043A /* ExtensionLocation.swift */; };
+		663D310926906A3A0057043A /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30D926906A3A0057043A /* UITextField+Extension.swift */; };
+		663D310A26906A3A0057043A /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30DA26906A3A0057043A /* LocationHelper.swift */; };
+		663D310B26906A3A0057043A /* LocalizationClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30DC26906A3A0057043A /* LocalizationClasses.swift */; };
+		663D310C26906A3A0057043A /* LocalizerLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30DD26906A3A0057043A /* LocalizerLanguage.swift */; };
+		663D310D26906A3A0057043A /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30DE26906A3A0057043A /* Localizer.swift */; };
+		663D310E26906A3A0057043A /* UIImagePickerController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30DF26906A3A0057043A /* UIImagePickerController + Extension.swift */; };
+		663D310F26906A3A0057043A /* BeatAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30E126906A3A0057043A /* BeatAnimator.swift */; };
+		663D311026906A3A0057043A /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30E226906A3A0057043A /* PullToRefreshView.swift */; };
+		663D311126906A3A0057043A /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30E326906A3A0057043A /* Animator.swift */; };
+		663D311226906A3A0057043A /* PullToRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30E426906A3A0057043A /* PullToRefreshExtension.swift */; };
+		663D311326906A3A0057043A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30E626906A3A0057043A /* APIService.swift */; };
+		663D311426906A3A0057043A /* Api_UploadFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30E726906A3A0057043A /* Api_UploadFiles.swift */; };
+		663D311526906A3A0057043A /* API_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D30E826906A3A0057043A /* API_Image.swift */; };
+		663D31272690762F0057043A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663D31252690762F0057043A /* LoginViewController.swift */; };
+		66839CA5269CEBA7004D7557 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66839CA4269CEBA7004D7557 /* UserDataModel.swift */; };
+		66A3A16F26A22CB7005C8F96 /* Api+ReimbursementClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A3A16E26A22CB7005C8F96 /* Api+ReimbursementClaimViewController.swift */; };
+		66A3A17126A22E89005C8F96 /* RequestsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A3A17026A22E89005C8F96 /* RequestsModel.swift */; };
+		66A3A17326A272CD005C8F96 /* Api+AdvanceClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A3A17226A272CD005C8F96 /* Api+AdvanceClaimViewController.swift */; };
+		66AD4FAD2705449D0085927C /* ManagerTabBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AD4FAC2705449D0085927C /* ManagerTabBarManager.swift */; };
+		66AE042026AA39F800BEAD37 /* PaymentWayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE041E26AA39F800BEAD37 /* PaymentWayViewController.swift */; };
+		66B5B75C26C4A7F800C2204E /* AddRequestPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B5B75A26C4A7F800C2204E /* AddRequestPhotoTableViewCell.swift */; };
+		66B5B75D26C4A7F800C2204E /* AddRequestPhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B5B75B26C4A7F800C2204E /* AddRequestPhotoTableViewCell.xib */; };
+		66B5B75F26C4A9BF00C2204E /* Table+AddReimbursementClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B5B75E26C4A9BF00C2204E /* Table+AddReimbursementClaimViewController.swift */; };
+		66C7DA7126C698FF009E71EC /* AddAdvanceClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7DA6F26C698FF009E71EC /* AddAdvanceClaimViewController.swift */; };
+		66C7DA7426C699E6009E71EC /* Api+AddAdvanceClaim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7DA7326C699E6009E71EC /* Api+AddAdvanceClaim.swift */; };
+		66D96C862708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96C842708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.swift */; };
+		66D96C872708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D96C852708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.xib */; };
+		66D96C8D2708E50200336678 /* Api+ManagerAdvanceRequestDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96C8C2708E50200336678 /* Api+ManagerAdvanceRequestDetails.swift */; };
+		66D96C8F2708E50900336678 /* Extension+ManagerAdvanceRequestDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96C8E2708E50900336678 /* Extension+ManagerAdvanceRequestDetails.swift */; };
+		66D96C992708FC8D00336678 /* ManagerReimbursementRequestDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D96C9B2708FC8D00336678 /* ManagerReimbursementRequestDetailsViewController.xib */; };
+		66D96C9E2709062200336678 /* ManagerAdvanceRequestDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D96CA02709062200336678 /* ManagerAdvanceRequestDetailsViewController.xib */; };
+		66D96CA32709105400336678 /* ManagerAdvanceRequestDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96C882708E4F900336678 /* ManagerAdvanceRequestDetailsViewController.swift */; };
+		66D96CA627091E2600336678 /* ForgetPasswordStepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96CA427091E2600336678 /* ForgetPasswordStepOneViewController.swift */; };
+		66D96CA727091E2600336678 /* ForgetPasswordStepOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D96CA527091E2600336678 /* ForgetPasswordStepOneViewController.xib */; };
+		66D96CAC2709223600336678 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96CAA2709223600336678 /* MyProfileViewController.swift */; };
+		66D96CAF27092F9500336678 /* Api+MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D96CAE27092F9500336678 /* Api+MyProfileViewController.swift */; };
+		66D96CB02709392000336678 /* MyProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D96CB22709392000336678 /* MyProfileViewController.xib */; };
+		66DE4EBF26AA53E400BDA02D /* PaymentWayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DE4EBD26AA53E400BDA02D /* PaymentWayTableViewCell.swift */; };
+		66DE4EC026AA53E400BDA02D /* PaymentWayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66DE4EBE26AA53E400BDA02D /* PaymentWayTableViewCell.xib */; };
+		66DE4EC226AA57CE00BDA02D /* Extension+PaymentWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DE4EC126AA57CE00BDA02D /* Extension+PaymentWay.swift */; };
+		66DE4EC526AA644300BDA02D /* WalletTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DE4EC426AA644300BDA02D /* WalletTypeModel.swift */; };
+		66DE4EC726AA652A00BDA02D /* Api+PaymentWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DE4EC626AA652A00BDA02D /* Api+PaymentWay.swift */; };
+		66F8DDC626A67242005946AB /* AddReimbursementClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F8DDC426A67242005946AB /* AddReimbursementClaimViewController.swift */; };
+		66FF5BD6269A5CCE00D2118E /* ReimbursementClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF5BD4269A5CCE00D2118E /* ReimbursementClaimViewController.swift */; };
+		66FF5BD9269A634000D2118E /* Swiper+ReimbursementClaim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF5BD8269A634000D2118E /* Swiper+ReimbursementClaim.swift */; };
+		66FF5BDC269A660E00D2118E /* ReimbursementClaimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF5BDA269A660E00D2118E /* ReimbursementClaimTableViewCell.swift */; };
+		66FF5BDF269A679400D2118E /* Extension+ReimbursementClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF5BDE269A679400D2118E /* Extension+ReimbursementClaimViewController.swift */; };
+		66FF5BE5269A70D900D2118E /* AdvanceClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF5BE3269A70D900D2118E /* AdvanceClaimViewController.swift */; };
+		66FF5BE9269A70EE00D2118E /* AdvanceClaimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF5BE7269A70EE00D2118E /* AdvanceClaimTableViewCell.swift */; };
+		66FF5BEC269A713500D2118E /* Extension+AdvanceClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF5BEB269A713500D2118E /* Extension+AdvanceClaimViewController.swift */; };
+		66FF5BEE269A713D00D2118E /* Swiper+AdvanceClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF5BED269A713D00D2118E /* Swiper+AdvanceClaimViewController.swift */; };
+		66FF5BF7269A739600D2118E /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF5BF5269A739600D2118E /* SideMenuViewController.swift */; };
+		C2501F63F7BD0D11DD2A9760 /* Pods_HollyDesk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF5FF05F36BD4F815556F3E /* Pods_HollyDesk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C64D65E135CB48C2D4CC6D4 /* Pods-HollyDesk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HollyDesk.release.xcconfig"; path = "Target Support Files/Pods-HollyDesk/Pods-HollyDesk.release.xcconfig"; sourceTree = "<group>"; };
+		398FE61F68FCB061CAACD411 /* Pods-HollyDesk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HollyDesk.debug.xcconfig"; path = "Target Support Files/Pods-HollyDesk/Pods-HollyDesk.debug.xcconfig"; sourceTree = "<group>"; };
+		6609D1592699DF1300F04A39 /* Entitiments.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitiments.plist; sourceTree = "<group>"; };
+		6609D15F2699FC8000F04A39 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6609D1652699FE3E00F04A39 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		6609D169269A018400F04A39 /* Extension+HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+HomeVC.swift"; sourceTree = "<group>"; };
+		6609D16B269A060F00F04A39 /* sideMenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenue.swift; sourceTree = "<group>"; };
+		6609D16F269A41D800F04A39 /* ClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimViewController.swift; sourceTree = "<group>"; };
+		660D6F2B27080DC6006D27CE /* ManagerRequestsTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerRequestsTypeViewController.swift; sourceTree = "<group>"; };
+		660D6F3027080F29006D27CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ManagerRequestsTypeViewController.xib; sourceTree = "<group>"; };
+		660D6F3327080F2C006D27CE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ManagerRequestsTypeViewController.strings; sourceTree = "<group>"; };
+		660D6F38270812E7006D27CE /* ManagerReimbursementRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerReimbursementRequestsViewController.swift; sourceTree = "<group>"; };
+		660D6F3C2708130F006D27CE /* ManagerReimbursementRequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerReimbursementRequestsTableViewCell.swift; sourceTree = "<group>"; };
+		660D6F41270813B5006D27CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ManagerReimbursementRequestsViewController.xib; sourceTree = "<group>"; };
+		660D6F44270813B8006D27CE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ManagerReimbursementRequestsViewController.strings; sourceTree = "<group>"; };
+		660D6F45270813E9006D27CE /* Api+ManagerReimbursementRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+ManagerReimbursementRequestsViewController.swift"; sourceTree = "<group>"; };
+		660D6F47270813F5006D27CE /* Extension+ManagerReimbursementRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ManagerReimbursementRequestsViewController.swift"; sourceTree = "<group>"; };
+		660D6F49270813FE006D27CE /* Swiper+ManagerReimbursementRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swiper+ManagerReimbursementRequestsViewController.swift"; sourceTree = "<group>"; };
+		660D6F4C2708146D006D27CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ManagerReimbursementRequestsTableViewCell.xib; sourceTree = "<group>"; };
+		660D6F4F2708146F006D27CE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ManagerReimbursementRequestsTableViewCell.strings; sourceTree = "<group>"; };
+		660D6F5227083544006D27CE /* ManagerAdvanceRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAdvanceRequestsViewController.swift; sourceTree = "<group>"; };
+		660D6F562708354E006D27CE /* Api+ManagerAdvanceRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+ManagerAdvanceRequests.swift"; sourceTree = "<group>"; };
+		660D6F5827083556006D27CE /* Extension+ManagerAdvanceRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ManagerAdvanceRequests.swift"; sourceTree = "<group>"; };
+		660D6F5A27083561006D27CE /* Swiper+ManagerAdvanceRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swiper+ManagerAdvanceRequests.swift"; sourceTree = "<group>"; };
+		660D6F5C27083572006D27CE /* ManagerAdvanceRequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAdvanceRequestsTableViewCell.swift; sourceTree = "<group>"; };
+		660D6F6127083601006D27CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ManagerAdvanceRequestsViewController.xib; sourceTree = "<group>"; };
+		660D6F6427083605006D27CE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ManagerAdvanceRequestsViewController.strings; sourceTree = "<group>"; };
+		660D6F6627083689006D27CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ManagerAdvanceRequestsTableViewCell.xib; sourceTree = "<group>"; };
+		660D6F692708368C006D27CE /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ManagerAdvanceRequestsTableViewCell.strings; sourceTree = "<group>"; };
+		660D6F7027083DBD006D27CE /* ManagerReimbursementRequestDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerReimbursementRequestDetailsViewController.swift; sourceTree = "<group>"; };
+		660D6F7427083DC7006D27CE /* Api+ManagerReimbursementRequestDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+ManagerReimbursementRequestDetails.swift"; sourceTree = "<group>"; };
+		660D6F7627083DCE006D27CE /* Extension+ManagerReimbursementRequestDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ManagerReimbursementRequestDetails.swift"; sourceTree = "<group>"; };
+		660D6F7827083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerReimbursementRequestDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		660D6F7927083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManagerReimbursementRequestDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		660D6F80270846BC006D27CE /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		660D6F8227085A07006D27CE /* RequestDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDetailsModel.swift; sourceTree = "<group>"; };
+		660D6F8427087349006D27CE /* Api+ReimbursementRequestDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+ReimbursementRequestDetailsViewController.swift"; sourceTree = "<group>"; };
+		660F9D2F26E35EE70056850A /* HollyDesk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HollyDesk.entitlements; sourceTree = "<group>"; };
+		6612248826DEB59200DA281E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/InAdvanceRequestDetailsViewController.xib; sourceTree = "<group>"; };
+		6612248B26DEB59500DA281E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InAdvanceRequestDetailsViewController.strings; sourceTree = "<group>"; };
+		66160AB1269F80F600D6BBD6 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		66160AB3269F825500D6BBD6 /* Api+HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+HomeVC.swift"; sourceTree = "<group>"; };
+		661A582826A8A40E00685C8C /* AddRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRequestModel.swift; sourceTree = "<group>"; };
+		661A582A26A8A46C00685C8C /* Api+AddReimbursementClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+AddReimbursementClaimViewController.swift"; sourceTree = "<group>"; };
+		661A582F26A9150300685C8C /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		661B45DF26D3549500F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		661B45E026D3549500F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		661B45E426D354C600F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		661B45E726D356A700F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LoginViewController.xib; sourceTree = "<group>"; };
+		661B45EA26D356AA00F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LoginViewController.strings; sourceTree = "<group>"; };
+		661B45EC26D3577100F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HomeTableViewCell.xib; sourceTree = "<group>"; };
+		661B45EF26D3577400F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/HomeTableViewCell.strings; sourceTree = "<group>"; };
+		661B45F126D3579D00F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/HomeViewController.xib; sourceTree = "<group>"; };
+		661B45F426D357A100F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/HomeViewController.strings; sourceTree = "<group>"; };
+		661B45F626D3581700F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ClaimViewController.xib; sourceTree = "<group>"; };
+		661B45F926D3581A00F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ClaimViewController.strings; sourceTree = "<group>"; };
+		661B45FB26D358A500F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ReimbursementClaimTableViewCell.xib; sourceTree = "<group>"; };
+		661B45FE26D358A800F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ReimbursementClaimTableViewCell.strings; sourceTree = "<group>"; };
+		661B460026D358BB00F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ReimbursementClaimViewController.xib; sourceTree = "<group>"; };
+		661B460326D358BE00F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ReimbursementClaimViewController.strings; sourceTree = "<group>"; };
+		661B460526D358EB00F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AdvanceClaimTableViewCell.xib; sourceTree = "<group>"; };
+		661B460826D358EE00F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AdvanceClaimTableViewCell.strings; sourceTree = "<group>"; };
+		661B460A26D3591300F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AdvanceClaimViewController.xib; sourceTree = "<group>"; };
+		661B460D26D3591600F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AdvanceClaimViewController.strings; sourceTree = "<group>"; };
+		661B461426D359C000F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AddReimbursementClaimViewController.xib; sourceTree = "<group>"; };
+		661B461726D359C300F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AddReimbursementClaimViewController.strings; sourceTree = "<group>"; };
+		661B461926D35AA000F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AddAdvanceClaimViewController.xib; sourceTree = "<group>"; };
+		661B461C26D35AA300F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/AddAdvanceClaimViewController.strings; sourceTree = "<group>"; };
+		661B461E26D35B3800F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SideMenuViewController.xib; sourceTree = "<group>"; };
+		661B462126D35B3B00F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SideMenuViewController.strings; sourceTree = "<group>"; };
+		661B462326D35B5B00F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/WalletViewController.xib; sourceTree = "<group>"; };
+		661B462626D35B5E00F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/WalletViewController.strings; sourceTree = "<group>"; };
+		661B462826D35C0E00F71500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PaymentWayViewController.xib; sourceTree = "<group>"; };
+		661B462B26D35C1000F71500 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/PaymentWayViewController.strings; sourceTree = "<group>"; };
+		6635D1D32693FC70004FC4F4 /* TabbarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarManager.swift; sourceTree = "<group>"; };
+		663BE9E826DAB1610058544A /* ReimbursementRequestDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReimbursementRequestDetailsViewController.swift; sourceTree = "<group>"; };
+		663BE9EC26DAB1940058544A /* Extension+ReimbursementRequestDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ReimbursementRequestDetailsVC.swift"; sourceTree = "<group>"; };
+		663BE9EE26DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReimbursementRequestDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		663BE9EF26DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReimbursementRequestDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		663BE9F326DAB3160058544A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ReimbursementRequestDetailsViewController.xib; sourceTree = "<group>"; };
+		663BE9F626DAB3190058544A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ReimbursementRequestDetailsViewController.strings; sourceTree = "<group>"; };
+		663BE9FB26DAB49B0058544A /* InAdvanceRequestDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAdvanceRequestDetailsViewController.swift; sourceTree = "<group>"; };
+		663BE9FF26DAB4AA0058544A /* Extension+InAdvanceRequestDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+InAdvanceRequestDetailsVC.swift"; sourceTree = "<group>"; };
+		663BEA0126DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAdvanceRequestDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		663BEA0226DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InAdvanceRequestDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		663BEA0526DAB8A80058544A /* Api+InAdvanceRequestDEtails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+InAdvanceRequestDEtails.swift"; sourceTree = "<group>"; };
+		663D303F2690625D0057043A /* HollyDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HollyDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		663D30422690625D0057043A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		663D30442690625E0057043A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		663D30462690625E0057043A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		663D30492690625E0057043A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		663D304B2690625E0057043A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		663D304E2690625E0057043A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		663D30502690625E0057043A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663D30C026906A3A0057043A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		663D30C126906A3A0057043A /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		663D30C226906A3A0057043A /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		663D30C426906A3A0057043A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		663D30C526906A3A0057043A /* UIApplication + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication + Extension.swift"; sourceTree = "<group>"; };
+		663D30C626906A3A0057043A /* HandelNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandelNavigation.swift; sourceTree = "<group>"; };
+		663D30C726906A3A0057043A /* LoadingButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingButtons.swift; sourceTree = "<group>"; };
+		663D30C826906A3A0057043A /* UserDefaultData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultData.swift; sourceTree = "<group>"; };
+		663D30C926906A3A0057043A /* AlertMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		663D30CA26906A3A0057043A /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		663D30CC26906A3A0057043A /* AppImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		663D30CD26906A3A0057043A /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		663D30CE26906A3A0057043A /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		663D30CF26906A3A0057043A /* StoryBoardViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardViews.swift; sourceTree = "<group>"; };
+		663D30D026906A3A0057043A /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		663D30D226906A3A0057043A /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		663D30D326906A3A0057043A /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		663D30D426906A3A0057043A /* TableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
+		663D30D526906A3A0057043A /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		663D30D626906A3A0057043A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		663D30D726906A3A0057043A /* Scroll+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scroll+Extension.swift"; sourceTree = "<group>"; };
+		663D30D826906A3A0057043A /* ExtensionLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionLocation.swift; sourceTree = "<group>"; };
+		663D30D926906A3A0057043A /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		663D30DA26906A3A0057043A /* LocationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		663D30DC26906A3A0057043A /* LocalizationClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationClasses.swift; sourceTree = "<group>"; };
+		663D30DD26906A3A0057043A /* LocalizerLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizerLanguage.swift; sourceTree = "<group>"; };
+		663D30DE26906A3A0057043A /* Localizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
+		663D30DF26906A3A0057043A /* UIImagePickerController + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController + Extension.swift"; sourceTree = "<group>"; };
+		663D30E126906A3A0057043A /* BeatAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatAnimator.swift; sourceTree = "<group>"; };
+		663D30E226906A3A0057043A /* PullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
+		663D30E326906A3A0057043A /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		663D30E426906A3A0057043A /* PullToRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullToRefreshExtension.swift; sourceTree = "<group>"; };
+		663D30E626906A3A0057043A /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		663D30E726906A3A0057043A /* Api_UploadFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api_UploadFiles.swift; sourceTree = "<group>"; };
+		663D30E826906A3A0057043A /* API_Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_Image.swift; sourceTree = "<group>"; };
+		663D31252690762F0057043A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		66839CA4269CEBA7004D7557 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		66A3A16E26A22CB7005C8F96 /* Api+ReimbursementClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+ReimbursementClaimViewController.swift"; sourceTree = "<group>"; };
+		66A3A17026A22E89005C8F96 /* RequestsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsModel.swift; sourceTree = "<group>"; };
+		66A3A17226A272CD005C8F96 /* Api+AdvanceClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+AdvanceClaimViewController.swift"; sourceTree = "<group>"; };
+		66AD4FAC2705449D0085927C /* ManagerTabBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerTabBarManager.swift; sourceTree = "<group>"; };
+		66AE041E26AA39F800BEAD37 /* PaymentWayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentWayViewController.swift; sourceTree = "<group>"; };
+		66B5B75A26C4A7F800C2204E /* AddRequestPhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRequestPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		66B5B75B26C4A7F800C2204E /* AddRequestPhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddRequestPhotoTableViewCell.xib; sourceTree = "<group>"; };
+		66B5B75E26C4A9BF00C2204E /* Table+AddReimbursementClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table+AddReimbursementClaimViewController.swift"; sourceTree = "<group>"; };
+		66C7DA6F26C698FF009E71EC /* AddAdvanceClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAdvanceClaimViewController.swift; sourceTree = "<group>"; };
+		66C7DA7326C699E6009E71EC /* Api+AddAdvanceClaim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+AddAdvanceClaim.swift"; sourceTree = "<group>"; };
+		66D96C842708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAdvanceRequestDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		66D96C852708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManagerAdvanceRequestDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		66D96C882708E4F900336678 /* ManagerAdvanceRequestDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerAdvanceRequestDetailsViewController.swift; sourceTree = "<group>"; };
+		66D96C8C2708E50200336678 /* Api+ManagerAdvanceRequestDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+ManagerAdvanceRequestDetails.swift"; sourceTree = "<group>"; };
+		66D96C8E2708E50900336678 /* Extension+ManagerAdvanceRequestDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ManagerAdvanceRequestDetails.swift"; sourceTree = "<group>"; };
+		66D96C9A2708FC8D00336678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ManagerReimbursementRequestDetailsViewController.xib; sourceTree = "<group>"; };
+		66D96C9D2708FC9000336678 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ManagerReimbursementRequestDetailsViewController.strings; sourceTree = "<group>"; };
+		66D96C9F2709062200336678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ManagerAdvanceRequestDetailsViewController.xib; sourceTree = "<group>"; };
+		66D96CA22709062500336678 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ManagerAdvanceRequestDetailsViewController.strings; sourceTree = "<group>"; };
+		66D96CA427091E2600336678 /* ForgetPasswordStepOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordStepOneViewController.swift; sourceTree = "<group>"; };
+		66D96CA527091E2600336678 /* ForgetPasswordStepOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPasswordStepOneViewController.xib; sourceTree = "<group>"; };
+		66D96CAA2709223600336678 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		66D96CAE27092F9500336678 /* Api+MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+MyProfileViewController.swift"; sourceTree = "<group>"; };
+		66D96CB12709392000336678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MyProfileViewController.xib; sourceTree = "<group>"; };
+		66D96CB42709392300336678 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/MyProfileViewController.strings; sourceTree = "<group>"; };
+		66DE4EBD26AA53E400BDA02D /* PaymentWayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentWayTableViewCell.swift; sourceTree = "<group>"; };
+		66DE4EBE26AA53E400BDA02D /* PaymentWayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentWayTableViewCell.xib; sourceTree = "<group>"; };
+		66DE4EC126AA57CE00BDA02D /* Extension+PaymentWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+PaymentWay.swift"; sourceTree = "<group>"; };
+		66DE4EC426AA644300BDA02D /* WalletTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTypeModel.swift; sourceTree = "<group>"; };
+		66DE4EC626AA652A00BDA02D /* Api+PaymentWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Api+PaymentWay.swift"; sourceTree = "<group>"; };
+		66F8DDC426A67242005946AB /* AddReimbursementClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReimbursementClaimViewController.swift; sourceTree = "<group>"; };
+		66FF5BD4269A5CCE00D2118E /* ReimbursementClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReimbursementClaimViewController.swift; sourceTree = "<group>"; };
+		66FF5BD8269A634000D2118E /* Swiper+ReimbursementClaim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swiper+ReimbursementClaim.swift"; sourceTree = "<group>"; };
+		66FF5BDA269A660E00D2118E /* ReimbursementClaimTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReimbursementClaimTableViewCell.swift; sourceTree = "<group>"; };
+		66FF5BDE269A679400D2118E /* Extension+ReimbursementClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+ReimbursementClaimViewController.swift"; sourceTree = "<group>"; };
+		66FF5BE3269A70D900D2118E /* AdvanceClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceClaimViewController.swift; sourceTree = "<group>"; };
+		66FF5BE7269A70EE00D2118E /* AdvanceClaimTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceClaimTableViewCell.swift; sourceTree = "<group>"; };
+		66FF5BEB269A713500D2118E /* Extension+AdvanceClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AdvanceClaimViewController.swift"; sourceTree = "<group>"; };
+		66FF5BED269A713D00D2118E /* Swiper+AdvanceClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swiper+AdvanceClaimViewController.swift"; sourceTree = "<group>"; };
+		66FF5BF5269A739600D2118E /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		6CF5FF05F36BD4F815556F3E /* Pods_HollyDesk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HollyDesk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		663D303C2690625D0057043A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2501F63F7BD0D11DD2A9760 /* Pods_HollyDesk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38380BDAA3A5A175536F5CD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				398FE61F68FCB061CAACD411 /* Pods-HollyDesk.debug.xcconfig */,
+				1C64D65E135CB48C2D4CC6D4 /* Pods-HollyDesk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5797782568453CFAD7829C54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF5FF05F36BD4F815556F3E /* Pods_HollyDesk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6609D15B2699FC5100F04A39 /* HomeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				6609D15C2699FC6000F04A39 /* Home */,
+			);
+			path = HomeCycle;
+			sourceTree = "<group>";
+		};
+		6609D15C2699FC6000F04A39 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6609D1642699FC8600F04A39 /* cell */,
+				6609D1632699FC8300F04A39 /* vc */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6609D1632699FC8300F04A39 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				6609D15F2699FC8000F04A39 /* HomeViewController.swift */,
+				661B45F226D3579D00F71500 /* HomeViewController.xib */,
+				6609D169269A018400F04A39 /* Extension+HomeVC.swift */,
+				66160AB3269F825500D6BBD6 /* Api+HomeVC.swift */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		6609D1642699FC8600F04A39 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				6609D1652699FE3E00F04A39 /* HomeTableViewCell.swift */,
+				661B45ED26D3577100F71500 /* HomeTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		6609D16D269A41AF00F04A39 /* ClaimsCycle */ = {
+			isa = PBXGroup;
+			children = (
+				663BE9F726DAB4600058544A /* InAdvanceRequestDetails */,
+				663BE9E526DAB0C80058544A /* ReimbursementRequestDetails */,
+				66C7DA6D26C698E4009E71EC /* AddAdvanceClaim */,
+				66F8DDC126A671FB005946AB /* AddReimbursementClaim */,
+				66FF5BE0269A706400D2118E /* AdvanceClaim */,
+				66FF5BD1269A5C9E00D2118E /* ReimbursementClaim */,
+				6609D16E269A41BF00F04A39 /* Claim */,
+			);
+			path = ClaimsCycle;
+			sourceTree = "<group>";
+		};
+		6609D16E269A41BF00F04A39 /* Claim */ = {
+			isa = PBXGroup;
+			children = (
+				6609D16F269A41D800F04A39 /* ClaimViewController.swift */,
+				661B45F726D3581700F71500 /* ClaimViewController.xib */,
+			);
+			path = Claim;
+			sourceTree = "<group>";
+		};
+		660D6F28270808C9006D27CE /* ManagerCycle */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F6B270838D8006D27CE /* ManagerAdvanceRequestDetails */,
+				660D6F6A270838C9006D27CE /* ManagerReimbursementRequestDetails */,
+				660D6F35270812BF006D27CE /* ManagerAdvanceRequests */,
+				660D6F34270812B0006D27CE /* ManagerReimbursementRequests */,
+				660D6F29270808DD006D27CE /* ManagerRequestsType */,
+			);
+			path = ManagerCycle;
+			sourceTree = "<group>";
+		};
+		660D6F29270808DD006D27CE /* ManagerRequestsType */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F2A27080DA9006D27CE /* vc */,
+			);
+			path = ManagerRequestsType;
+			sourceTree = "<group>";
+		};
+		660D6F2A27080DA9006D27CE /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F2B27080DC6006D27CE /* ManagerRequestsTypeViewController.swift */,
+				660D6F3127080F29006D27CE /* ManagerRequestsTypeViewController.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		660D6F34270812B0006D27CE /* ManagerReimbursementRequests */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F37270812D6006D27CE /* cell */,
+				660D6F36270812D2006D27CE /* vc */,
+			);
+			path = ManagerReimbursementRequests;
+			sourceTree = "<group>";
+		};
+		660D6F35270812BF006D27CE /* ManagerAdvanceRequests */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F512708352A006D27CE /* cell */,
+				660D6F5027083527006D27CE /* vc */,
+			);
+			path = ManagerAdvanceRequests;
+			sourceTree = "<group>";
+		};
+		660D6F36270812D2006D27CE /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F38270812E7006D27CE /* ManagerReimbursementRequestsViewController.swift */,
+				660D6F45270813E9006D27CE /* Api+ManagerReimbursementRequestsViewController.swift */,
+				660D6F47270813F5006D27CE /* Extension+ManagerReimbursementRequestsViewController.swift */,
+				660D6F49270813FE006D27CE /* Swiper+ManagerReimbursementRequestsViewController.swift */,
+				660D6F42270813B5006D27CE /* ManagerReimbursementRequestsViewController.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		660D6F37270812D6006D27CE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F3C2708130F006D27CE /* ManagerReimbursementRequestsTableViewCell.swift */,
+				660D6F4D2708146D006D27CE /* ManagerReimbursementRequestsTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		660D6F5027083527006D27CE /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F5227083544006D27CE /* ManagerAdvanceRequestsViewController.swift */,
+				660D6F562708354E006D27CE /* Api+ManagerAdvanceRequests.swift */,
+				660D6F5827083556006D27CE /* Extension+ManagerAdvanceRequests.swift */,
+				660D6F5A27083561006D27CE /* Swiper+ManagerAdvanceRequests.swift */,
+				660D6F6227083601006D27CE /* ManagerAdvanceRequestsViewController.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		660D6F512708352A006D27CE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F5C27083572006D27CE /* ManagerAdvanceRequestsTableViewCell.swift */,
+				660D6F6727083689006D27CE /* ManagerAdvanceRequestsTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		660D6F6A270838C9006D27CE /* ManagerReimbursementRequestDetails */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F6D27083D41006D27CE /* cell */,
+				660D6F6C27083D3E006D27CE /* vc */,
+			);
+			path = ManagerReimbursementRequestDetails;
+			sourceTree = "<group>";
+		};
+		660D6F6B270838D8006D27CE /* ManagerAdvanceRequestDetails */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F6F27083D49006D27CE /* cell */,
+				660D6F6E27083D46006D27CE /* vc */,
+			);
+			path = ManagerAdvanceRequestDetails;
+			sourceTree = "<group>";
+		};
+		660D6F6C27083D3E006D27CE /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				66D96C9B2708FC8D00336678 /* ManagerReimbursementRequestDetailsViewController.xib */,
+				660D6F7027083DBD006D27CE /* ManagerReimbursementRequestDetailsViewController.swift */,
+				660D6F7427083DC7006D27CE /* Api+ManagerReimbursementRequestDetails.swift */,
+				660D6F7627083DCE006D27CE /* Extension+ManagerReimbursementRequestDetails.swift */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		660D6F6D27083D41006D27CE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F7827083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.swift */,
+				660D6F7927083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		660D6F6E27083D46006D27CE /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				66D96C882708E4F900336678 /* ManagerAdvanceRequestDetailsViewController.swift */,
+				66D96CA02709062200336678 /* ManagerAdvanceRequestDetailsViewController.xib */,
+				66D96C8C2708E50200336678 /* Api+ManagerAdvanceRequestDetails.swift */,
+				66D96C8E2708E50900336678 /* Extension+ManagerAdvanceRequestDetails.swift */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		660D6F6F27083D49006D27CE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				66D96C842708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.swift */,
+				66D96C852708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		660D6F7C27084507006D27CE /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F7F270845AF006D27CE /* ForgetPasswordStepThree */,
+				660D6F7E270845A6006D27CE /* ForgetPasswordStepTwo */,
+				660D6F7D27084597006D27CE /* ForgetPasswordStepOne */,
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		660D6F7D27084597006D27CE /* ForgetPasswordStepOne */ = {
+			isa = PBXGroup;
+			children = (
+				66D96CA427091E2600336678 /* ForgetPasswordStepOneViewController.swift */,
+				66D96CA527091E2600336678 /* ForgetPasswordStepOneViewController.xib */,
+			);
+			path = ForgetPasswordStepOne;
+			sourceTree = "<group>";
+		};
+		660D6F7E270845A6006D27CE /* ForgetPasswordStepTwo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgetPasswordStepTwo;
+			sourceTree = "<group>";
+		};
+		660D6F7F270845AF006D27CE /* ForgetPasswordStepThree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgetPasswordStepThree;
+			sourceTree = "<group>";
+		};
+		66160AB0269F80E300D6BBD6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				66160AB1269F80F600D6BBD6 /* HomeModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		661A582726A8A3E600685C8C /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				661A582826A8A40E00685C8C /* AddRequestModel.swift */,
+				660D6F8227085A07006D27CE /* RequestDetailsModel.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		661A582C26A914D900685C8C /* WalletCycle */ = {
+			isa = PBXGroup;
+			children = (
+				66AE041D26AA39B800BEAD37 /* PaymentWay */,
+				661A582E26A914E300685C8C /* Wallet */,
+			);
+			path = WalletCycle;
+			sourceTree = "<group>";
+		};
+		661A582E26A914E300685C8C /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				661A582F26A9150300685C8C /* WalletViewController.swift */,
+				661B462426D35B5B00F71500 /* WalletViewController.xib */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		6635D1D02693FC3C004FC4F4 /* TabbarManager */ = {
+			isa = PBXGroup;
+			children = (
+				6635D1D32693FC70004FC4F4 /* TabbarManager.swift */,
+				66AD4FAC2705449D0085927C /* ManagerTabBarManager.swift */,
+			);
+			path = TabbarManager;
+			sourceTree = "<group>";
+		};
+		663BE9E526DAB0C80058544A /* ReimbursementRequestDetails */ = {
+			isa = PBXGroup;
+			children = (
+				663BE9E726DAB14C0058544A /* vc */,
+				663BE9E626DAB1490058544A /* cell */,
+			);
+			path = ReimbursementRequestDetails;
+			sourceTree = "<group>";
+		};
+		663BE9E626DAB1490058544A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				663BE9EE26DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.swift */,
+				663BE9EF26DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		663BE9E726DAB14C0058544A /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				663BE9E826DAB1610058544A /* ReimbursementRequestDetailsViewController.swift */,
+				660D6F8427087349006D27CE /* Api+ReimbursementRequestDetailsViewController.swift */,
+				663BE9EC26DAB1940058544A /* Extension+ReimbursementRequestDetailsVC.swift */,
+				663BE9F426DAB3160058544A /* ReimbursementRequestDetailsViewController.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		663BE9F726DAB4600058544A /* InAdvanceRequestDetails */ = {
+			isa = PBXGroup;
+			children = (
+				663BE9FA26DAB47B0058544A /* cell */,
+				663BE9F826DAB4730058544A /* vc */,
+			);
+			path = InAdvanceRequestDetails;
+			sourceTree = "<group>";
+		};
+		663BE9F826DAB4730058544A /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				663BE9FB26DAB49B0058544A /* InAdvanceRequestDetailsViewController.swift */,
+				663BEA0526DAB8A80058544A /* Api+InAdvanceRequestDEtails.swift */,
+				663BE9FF26DAB4AA0058544A /* Extension+InAdvanceRequestDetailsVC.swift */,
+				6612248926DEB59200DA281E /* InAdvanceRequestDetailsViewController.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		663BE9FA26DAB47B0058544A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				663BEA0126DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.swift */,
+				663BEA0226DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		663D30362690625D0057043A = {
+			isa = PBXGroup;
+			children = (
+				6609D1592699DF1300F04A39 /* Entitiments.plist */,
+				663D30412690625D0057043A /* HollyDesk */,
+				663D30402690625D0057043A /* Products */,
+				38380BDAA3A5A175536F5CD5 /* Pods */,
+				5797782568453CFAD7829C54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		663D30402690625D0057043A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				663D303F2690625D0057043A /* HollyDesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		663D30412690625D0057043A /* HollyDesk */ = {
+			isa = PBXGroup;
+			children = (
+				660F9D2F26E35EE70056850A /* HollyDesk.entitlements */,
+				66839CA2269CEB87004D7557 /* Model */,
+				663D3120269074E00057043A /* Scence */,
+				663D311F26906B7C0057043A /* Views */,
+				663D311E26906B130057043A /* Helpers */,
+				663D30E526906A3A0057043A /* API */,
+				663D30BF26906A3A0057043A /* Desigens */,
+				663D30C326906A3A0057043A /* Extension */,
+				663D30502690625E0057043A /* Info.plist */,
+			);
+			path = HollyDesk;
+			sourceTree = "<group>";
+		};
+		663D30BF26906A3A0057043A /* Desigens */ = {
+			isa = PBXGroup;
+			children = (
+				663D30C026906A3A0057043A /* UIView+Extension.swift */,
+				663D30C126906A3A0057043A /* GradientButton.swift */,
+				663D30C226906A3A0057043A /* CircleView.swift */,
+			);
+			path = Desigens;
+			sourceTree = "<group>";
+		};
+		663D30C326906A3A0057043A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				663D30C426906A3A0057043A /* Constants.swift */,
+				663D30C526906A3A0057043A /* UIApplication + Extension.swift */,
+				663D30C626906A3A0057043A /* HandelNavigation.swift */,
+				663D30C726906A3A0057043A /* LoadingButtons.swift */,
+				663D30C826906A3A0057043A /* UserDefaultData.swift */,
+				663D30C926906A3A0057043A /* AlertMessage.swift */,
+				663D30CA26906A3A0057043A /* Date+Extension.swift */,
+				663D30CB26906A3A0057043A /* Constants */,
+				663D30D126906A3A0057043A /* StringExtension */,
+				663D30D426906A3A0057043A /* TableView+Extension.swift */,
+				663D30D526906A3A0057043A /* FloatLabelTextField.swift */,
+				663D30D626906A3A0057043A /* UIViewController+Extension.swift */,
+				663D30D726906A3A0057043A /* Scroll+Extension.swift */,
+				663D30D826906A3A0057043A /* ExtensionLocation.swift */,
+				663D30D926906A3A0057043A /* UITextField+Extension.swift */,
+				663D30DA26906A3A0057043A /* LocationHelper.swift */,
+				663D30DB26906A3A0057043A /* Localization */,
+				663D30DF26906A3A0057043A /* UIImagePickerController + Extension.swift */,
+				663D30E026906A3A0057043A /* Refresher */,
+				6609D16B269A060F00F04A39 /* sideMenue.swift */,
+				660D6F80270846BC006D27CE /* UIButton+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		663D30CB26906A3A0057043A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				663D30CC26906A3A0057043A /* AppImage.swift */,
+				663D30CD26906A3A0057043A /* Messages.swift */,
+				663D30CE26906A3A0057043A /* AppColor.swift */,
+				663D30CF26906A3A0057043A /* StoryBoardViews.swift */,
+				663D30D026906A3A0057043A /* URLs.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		663D30D126906A3A0057043A /* StringExtension */ = {
+			isa = PBXGroup;
+			children = (
+				663D30D226906A3A0057043A /* String+Extension.swift */,
+				663D30D326906A3A0057043A /* String + Extension.swift */,
+			);
+			path = StringExtension;
+			sourceTree = "<group>";
+		};
+		663D30DB26906A3A0057043A /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				663D30DC26906A3A0057043A /* LocalizationClasses.swift */,
+				663D30DD26906A3A0057043A /* LocalizerLanguage.swift */,
+				663D30DE26906A3A0057043A /* Localizer.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		663D30E026906A3A0057043A /* Refresher */ = {
+			isa = PBXGroup;
+			children = (
+				663D30E126906A3A0057043A /* BeatAnimator.swift */,
+				663D30E226906A3A0057043A /* PullToRefreshView.swift */,
+				663D30E326906A3A0057043A /* Animator.swift */,
+				663D30E426906A3A0057043A /* PullToRefreshExtension.swift */,
+			);
+			path = Refresher;
+			sourceTree = "<group>";
+		};
+		663D30E526906A3A0057043A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				663D30E626906A3A0057043A /* APIService.swift */,
+				663D30E726906A3A0057043A /* Api_UploadFiles.swift */,
+				663D30E826906A3A0057043A /* API_Image.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		663D311E26906B130057043A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				663D30422690625D0057043A /* AppDelegate.swift */,
+				663D30442690625E0057043A /* SceneDelegate.swift */,
+				663D30462690625E0057043A /* ViewController.swift */,
+				663D304B2690625E0057043A /* Assets.xcassets */,
+				661B45E526D354C600F71500 /* Localizable.strings */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		663D311F26906B7C0057043A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				663D30482690625E0057043A /* Main.storyboard */,
+				663D304D2690625E0057043A /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		663D3120269074E00057043A /* Scence */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F28270808C9006D27CE /* ManagerCycle */,
+				661A582C26A914D900685C8C /* WalletCycle */,
+				66FF5BF4269A738700D2118E /* SideMenu */,
+				6609D16D269A41AF00F04A39 /* ClaimsCycle */,
+				6609D15B2699FC5100F04A39 /* HomeCycle */,
+				6635D1D02693FC3C004FC4F4 /* TabbarManager */,
+				663D3121269074E70057043A /* Auth */,
+			);
+			path = Scence;
+			sourceTree = "<group>";
+		};
+		663D3121269074E70057043A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				660D6F7C27084507006D27CE /* ForgetPassword */,
+				663D3122269074ED0057043A /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		663D3122269074ED0057043A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				663D31252690762F0057043A /* LoginViewController.swift */,
+				661B45E826D356A700F71500 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		66839CA2269CEB87004D7557 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66DE4EC326AA643400BDA02D /* Wallet */,
+				661A582726A8A3E600685C8C /* Request */,
+				66160AB0269F80E300D6BBD6 /* Home */,
+				66839CA3269CEB92004D7557 /* Auth */,
+				66A3A17026A22E89005C8F96 /* RequestsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66839CA3269CEB92004D7557 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				66839CA4269CEBA7004D7557 /* UserDataModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		66AE041D26AA39B800BEAD37 /* PaymentWay */ = {
+			isa = PBXGroup;
+			children = (
+				66DE4EBC26AA53AC00BDA02D /* cell */,
+				66DE4EBB26AA53A800BDA02D /* view */,
+			);
+			path = PaymentWay;
+			sourceTree = "<group>";
+		};
+		66C7DA6D26C698E4009E71EC /* AddAdvanceClaim */ = {
+			isa = PBXGroup;
+			children = (
+				66C7DA6E26C698F1009E71EC /* vc */,
+			);
+			path = AddAdvanceClaim;
+			sourceTree = "<group>";
+		};
+		66C7DA6E26C698F1009E71EC /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				66C7DA6F26C698FF009E71EC /* AddAdvanceClaimViewController.swift */,
+				661B461A26D35AA000F71500 /* AddAdvanceClaimViewController.xib */,
+				66C7DA7326C699E6009E71EC /* Api+AddAdvanceClaim.swift */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		66D96CA8270921FD00336678 /* MainSideMenue */ = {
+			isa = PBXGroup;
+			children = (
+				66FF5BF5269A739600D2118E /* SideMenuViewController.swift */,
+				661B461F26D35B3800F71500 /* SideMenuViewController.xib */,
+			);
+			path = MainSideMenue;
+			sourceTree = "<group>";
+		};
+		66D96CA92709221700336678 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				66D96CAA2709223600336678 /* MyProfileViewController.swift */,
+				66D96CAE27092F9500336678 /* Api+MyProfileViewController.swift */,
+				66D96CB22709392000336678 /* MyProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		66DE4EBB26AA53A800BDA02D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				66AE041E26AA39F800BEAD37 /* PaymentWayViewController.swift */,
+				66DE4EC126AA57CE00BDA02D /* Extension+PaymentWay.swift */,
+				66DE4EC626AA652A00BDA02D /* Api+PaymentWay.swift */,
+				661B462926D35C0E00F71500 /* PaymentWayViewController.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		66DE4EBC26AA53AC00BDA02D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				66DE4EBD26AA53E400BDA02D /* PaymentWayTableViewCell.swift */,
+				66DE4EBE26AA53E400BDA02D /* PaymentWayTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		66DE4EC326AA643400BDA02D /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				66DE4EC426AA644300BDA02D /* WalletTypeModel.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		66F8DDC126A671FB005946AB /* AddReimbursementClaim */ = {
+			isa = PBXGroup;
+			children = (
+				66F8DDC226A67229005946AB /* cell */,
+				66F8DDC326A6722D005946AB /* view */,
+			);
+			path = AddReimbursementClaim;
+			sourceTree = "<group>";
+		};
+		66F8DDC226A67229005946AB /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				66B5B75A26C4A7F800C2204E /* AddRequestPhotoTableViewCell.swift */,
+				66B5B75B26C4A7F800C2204E /* AddRequestPhotoTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		66F8DDC326A6722D005946AB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				66F8DDC426A67242005946AB /* AddReimbursementClaimViewController.swift */,
+				66B5B75E26C4A9BF00C2204E /* Table+AddReimbursementClaimViewController.swift */,
+				661A582A26A8A46C00685C8C /* Api+AddReimbursementClaimViewController.swift */,
+				661B461526D359C000F71500 /* AddReimbursementClaimViewController.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		66FF5BD1269A5C9E00D2118E /* ReimbursementClaim */ = {
+			isa = PBXGroup;
+			children = (
+				66FF5BD3269A5CBF00D2118E /* cell */,
+				66FF5BD2269A5CBB00D2118E /* vc */,
+			);
+			path = ReimbursementClaim;
+			sourceTree = "<group>";
+		};
+		66FF5BD2269A5CBB00D2118E /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				66FF5BD4269A5CCE00D2118E /* ReimbursementClaimViewController.swift */,
+				66A3A16E26A22CB7005C8F96 /* Api+ReimbursementClaimViewController.swift */,
+				66FF5BDE269A679400D2118E /* Extension+ReimbursementClaimViewController.swift */,
+				66FF5BD8269A634000D2118E /* Swiper+ReimbursementClaim.swift */,
+				661B460126D358BB00F71500 /* ReimbursementClaimViewController.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		66FF5BD3269A5CBF00D2118E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				66FF5BDA269A660E00D2118E /* ReimbursementClaimTableViewCell.swift */,
+				661B45FC26D358A500F71500 /* ReimbursementClaimTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		66FF5BE0269A706400D2118E /* AdvanceClaim */ = {
+			isa = PBXGroup;
+			children = (
+				66FF5BE2269A70C600D2118E /* cell */,
+				66FF5BE1269A70C000D2118E /* vc */,
+			);
+			path = AdvanceClaim;
+			sourceTree = "<group>";
+		};
+		66FF5BE1269A70C000D2118E /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				66FF5BE3269A70D900D2118E /* AdvanceClaimViewController.swift */,
+				66A3A17226A272CD005C8F96 /* Api+AdvanceClaimViewController.swift */,
+				66FF5BEB269A713500D2118E /* Extension+AdvanceClaimViewController.swift */,
+				66FF5BED269A713D00D2118E /* Swiper+AdvanceClaimViewController.swift */,
+				661B460B26D3591300F71500 /* AdvanceClaimViewController.xib */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		66FF5BE2269A70C600D2118E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				66FF5BE7269A70EE00D2118E /* AdvanceClaimTableViewCell.swift */,
+				661B460626D358EB00F71500 /* AdvanceClaimTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		66FF5BF4269A738700D2118E /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				66D96CA92709221700336678 /* Profile */,
+				66D96CA8270921FD00336678 /* MainSideMenue */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		663D303E2690625D0057043A /* HollyDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663D30532690625E0057043A /* Build configuration list for PBXNativeTarget "HollyDesk" */;
+			buildPhases = (
+				0C817B5AB6E226A07D84961E /* [CP] Check Pods Manifest.lock */,
+				663D303B2690625D0057043A /* Sources */,
+				663D303C2690625D0057043A /* Frameworks */,
+				663D303D2690625D0057043A /* Resources */,
+				1B5A7253295A7B59B27BFDAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HollyDesk;
+			productName = HollyDesk;
+			productReference = 663D303F2690625D0057043A /* HollyDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		663D30372690625D0057043A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					663D303E2690625D0057043A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 663D303A2690625D0057043A /* Build configuration list for PBXProject "HollyDesk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 663D30362690625D0057043A;
+			productRefGroup = 663D30402690625D0057043A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				663D303E2690625D0057043A /* HollyDesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663D303D2690625D0057043A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D96C992708FC8D00336678 /* ManagerReimbursementRequestDetailsViewController.xib in Resources */,
+				661B45E626D356A700F71500 /* LoginViewController.xib in Resources */,
+				663BE9F126DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.xib in Resources */,
+				661B45FA26D358A500F71500 /* ReimbursementClaimTableViewCell.xib in Resources */,
+				66D96CB02709392000336678 /* MyProfileViewController.xib in Resources */,
+				660D6F6527083689006D27CE /* ManagerAdvanceRequestsTableViewCell.xib in Resources */,
+				661B45EB26D3577100F71500 /* HomeTableViewCell.xib in Resources */,
+				663BEA0426DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.xib in Resources */,
+				661B462226D35B5B00F71500 /* WalletViewController.xib in Resources */,
+				66B5B75D26C4A7F800C2204E /* AddRequestPhotoTableViewCell.xib in Resources */,
+				660D6F40270813B5006D27CE /* ManagerReimbursementRequestsViewController.xib in Resources */,
+				661B460926D3591300F71500 /* AdvanceClaimViewController.xib in Resources */,
+				660D6F6027083601006D27CE /* ManagerAdvanceRequestsViewController.xib in Resources */,
+				660D6F7B27083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.xib in Resources */,
+				6609D15A2699DF1300F04A39 /* Entitiments.plist in Resources */,
+				663BE9F226DAB3160058544A /* ReimbursementRequestDetailsViewController.xib in Resources */,
+				66D96CA727091E2600336678 /* ForgetPasswordStepOneViewController.xib in Resources */,
+				661B462726D35C0E00F71500 /* PaymentWayViewController.xib in Resources */,
+				661B460426D358EB00F71500 /* AdvanceClaimTableViewCell.xib in Resources */,
+				663D304F2690625E0057043A /* LaunchScreen.storyboard in Resources */,
+				663D304C2690625E0057043A /* Assets.xcassets in Resources */,
+				661B461326D359C000F71500 /* AddReimbursementClaimViewController.xib in Resources */,
+				660D6F4B2708146D006D27CE /* ManagerReimbursementRequestsTableViewCell.xib in Resources */,
+				661B45E326D354C600F71500 /* Localizable.strings in Resources */,
+				661B461826D35AA000F71500 /* AddAdvanceClaimViewController.xib in Resources */,
+				661B45F526D3581700F71500 /* ClaimViewController.xib in Resources */,
+				660D6F2F27080F29006D27CE /* ManagerRequestsTypeViewController.xib in Resources */,
+				66DE4EC026AA53E400BDA02D /* PaymentWayTableViewCell.xib in Resources */,
+				661B45FF26D358BB00F71500 /* ReimbursementClaimViewController.xib in Resources */,
+				663D304A2690625E0057043A /* Main.storyboard in Resources */,
+				6612248726DEB59200DA281E /* InAdvanceRequestDetailsViewController.xib in Resources */,
+				66D96C872708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.xib in Resources */,
+				66D96C9E2709062200336678 /* ManagerAdvanceRequestDetailsViewController.xib in Resources */,
+				661B461D26D35B3800F71500 /* SideMenuViewController.xib in Resources */,
+				661B45F026D3579D00F71500 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C817B5AB6E226A07D84961E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HollyDesk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B5A7253295A7B59B27BFDAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HollyDesk/Pods-HollyDesk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HollyDesk/Pods-HollyDesk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HollyDesk/Pods-HollyDesk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		663D303B2690625D0057043A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DE4EC226AA57CE00BDA02D /* Extension+PaymentWay.swift in Sources */,
+				66D96C862708E4EC00336678 /* ManagerAdvanceRequestDetailsTableViewCell.swift in Sources */,
+				660D6F4A270813FE006D27CE /* Swiper+ManagerReimbursementRequestsViewController.swift in Sources */,
+				663D310726906A3A0057043A /* Scroll+Extension.swift in Sources */,
+				66DE4EC726AA652A00BDA02D /* Api+PaymentWay.swift in Sources */,
+				66D96CA32709105400336678 /* ManagerAdvanceRequestDetailsViewController.swift in Sources */,
+				660D6F5E27083572006D27CE /* ManagerAdvanceRequestsTableViewCell.swift in Sources */,
+				663D30F926906A3A0057043A /* LoadingButtons.swift in Sources */,
+				663D311526906A3A0057043A /* API_Image.swift in Sources */,
+				66DE4EC526AA644300BDA02D /* WalletTypeModel.swift in Sources */,
+				660D6F3E2708130F006D27CE /* ManagerReimbursementRequestsTableViewCell.swift in Sources */,
+				66D96CA627091E2600336678 /* ForgetPasswordStepOneViewController.swift in Sources */,
+				660D6F7727083DCE006D27CE /* Extension+ManagerReimbursementRequestDetails.swift in Sources */,
+				66FF5BE9269A70EE00D2118E /* AdvanceClaimTableViewCell.swift in Sources */,
+				663D310126906A3A0057043A /* URLs.swift in Sources */,
+				66D96C8F2708E50900336678 /* Extension+ManagerAdvanceRequestDetails.swift in Sources */,
+				663D310326906A3A0057043A /* String + Extension.swift in Sources */,
+				6609D16C269A060F00F04A39 /* sideMenue.swift in Sources */,
+				663D310F26906A3A0057043A /* BeatAnimator.swift in Sources */,
+				663BEA0626DAB8A80058544A /* Api+InAdvanceRequestDEtails.swift in Sources */,
+				661A583126A9150300685C8C /* WalletViewController.swift in Sources */,
+				663D311026906A3A0057043A /* PullToRefreshView.swift in Sources */,
+				66C7DA7126C698FF009E71EC /* AddAdvanceClaimViewController.swift in Sources */,
+				661A582B26A8A46C00685C8C /* Api+AddReimbursementClaimViewController.swift in Sources */,
+				66B5B75F26C4A9BF00C2204E /* Table+AddReimbursementClaimViewController.swift in Sources */,
+				66A3A16F26A22CB7005C8F96 /* Api+ReimbursementClaimViewController.swift in Sources */,
+				663D310826906A3A0057043A /* ExtensionLocation.swift in Sources */,
+				663D30F526906A3A0057043A /* CircleView.swift in Sources */,
+				663D310226906A3A0057043A /* String+Extension.swift in Sources */,
+				663BE9F026DAB2E80058544A /* ReimbursementRequestDetailsTableViewCell.swift in Sources */,
+				66D96CAC2709223600336678 /* MyProfileViewController.swift in Sources */,
+				660D6F5927083556006D27CE /* Extension+ManagerAdvanceRequests.swift in Sources */,
+				663D30FC26906A3A0057043A /* Date+Extension.swift in Sources */,
+				66B5B75C26C4A7F800C2204E /* AddRequestPhotoTableViewCell.swift in Sources */,
+				663D30F426906A3A0057043A /* GradientButton.swift in Sources */,
+				66DE4EBF26AA53E400BDA02D /* PaymentWayTableViewCell.swift in Sources */,
+				660D6F7A27083DDC006D27CE /* ManagerReimbursementRequestDetailsTableViewCell.swift in Sources */,
+				660D6F7527083DC7006D27CE /* Api+ManagerReimbursementRequestDetails.swift in Sources */,
+				66A3A17326A272CD005C8F96 /* Api+AdvanceClaimViewController.swift in Sources */,
+				660D6F8527087349006D27CE /* Api+ReimbursementRequestDetailsViewController.swift in Sources */,
+				66AE042026AA39F800BEAD37 /* PaymentWayViewController.swift in Sources */,
+				663BE9ED26DAB1940058544A /* Extension+ReimbursementRequestDetailsVC.swift in Sources */,
+				663D310626906A3A0057043A /* UIViewController+Extension.swift in Sources */,
+				66FF5BD9269A634000D2118E /* Swiper+ReimbursementClaim.swift in Sources */,
+				663D30472690625E0057043A /* ViewController.swift in Sources */,
+				663D311426906A3A0057043A /* Api_UploadFiles.swift in Sources */,
+				660D6F7227083DBD006D27CE /* ManagerReimbursementRequestDetailsViewController.swift in Sources */,
+				66F8DDC626A67242005946AB /* AddReimbursementClaimViewController.swift in Sources */,
+				663D30FA26906A3A0057043A /* UserDefaultData.swift in Sources */,
+				663D310526906A3A0057043A /* FloatLabelTextField.swift in Sources */,
+				66FF5BEC269A713500D2118E /* Extension+AdvanceClaimViewController.swift in Sources */,
+				66C7DA7426C699E6009E71EC /* Api+AddAdvanceClaim.swift in Sources */,
+				66FF5BD6269A5CCE00D2118E /* ReimbursementClaimViewController.swift in Sources */,
+				66D96CAF27092F9500336678 /* Api+MyProfileViewController.swift in Sources */,
+				66FF5BE5269A70D900D2118E /* AdvanceClaimViewController.swift in Sources */,
+				663D30432690625D0057043A /* AppDelegate.swift in Sources */,
+				66FF5BEE269A713D00D2118E /* Swiper+AdvanceClaimViewController.swift in Sources */,
+				660D6F572708354E006D27CE /* Api+ManagerAdvanceRequests.swift in Sources */,
+				663D310E26906A3A0057043A /* UIImagePickerController + Extension.swift in Sources */,
+				660D6F5427083544006D27CE /* ManagerAdvanceRequestsViewController.swift in Sources */,
+				663D310426906A3A0057043A /* TableView+Extension.swift in Sources */,
+				663D30FE26906A3A0057043A /* Messages.swift in Sources */,
+				663D30FD26906A3A0057043A /* AppImage.swift in Sources */,
+				66AD4FAD2705449D0085927C /* ManagerTabBarManager.swift in Sources */,
+				663BE9FD26DAB49B0058544A /* InAdvanceRequestDetailsViewController.swift in Sources */,
+				660D6F2D27080DC6006D27CE /* ManagerRequestsTypeViewController.swift in Sources */,
+				663D30FF26906A3A0057043A /* AppColor.swift in Sources */,
+				663D30F726906A3A0057043A /* UIApplication + Extension.swift in Sources */,
+				66FF5BDC269A660E00D2118E /* ReimbursementClaimTableViewCell.swift in Sources */,
+				663BEA0326DAB4C30058544A /* InAdvanceRequestDetailsTableViewCell.swift in Sources */,
+				660D6F5B27083561006D27CE /* Swiper+ManagerAdvanceRequests.swift in Sources */,
+				6609D16A269A018400F04A39 /* Extension+HomeVC.swift in Sources */,
+				66160AB4269F825500D6BBD6 /* Api+HomeVC.swift in Sources */,
+				663D31272690762F0057043A /* LoginViewController.swift in Sources */,
+				66FF5BF7269A739600D2118E /* SideMenuViewController.swift in Sources */,
+				663D311226906A3A0057043A /* PullToRefreshExtension.swift in Sources */,
+				663D310B26906A3A0057043A /* LocalizationClasses.swift in Sources */,
+				663BEA0026DAB4AA0058544A /* Extension+InAdvanceRequestDetailsVC.swift in Sources */,
+				663D30F626906A3A0057043A /* Constants.swift in Sources */,
+				663D30F326906A3A0057043A /* UIView+Extension.swift in Sources */,
+				66D96C8D2708E50200336678 /* Api+ManagerAdvanceRequestDetails.swift in Sources */,
+				660D6F46270813E9006D27CE /* Api+ManagerReimbursementRequestsViewController.swift in Sources */,
+				663D310026906A3A0057043A /* StoryBoardViews.swift in Sources */,
+				6609D1672699FE3E00F04A39 /* HomeTableViewCell.swift in Sources */,
+				660D6F81270846BC006D27CE /* UIButton+.swift in Sources */,
+				663D30452690625E0057043A /* SceneDelegate.swift in Sources */,
+				66839CA5269CEBA7004D7557 /* UserDataModel.swift in Sources */,
+				663D310926906A3A0057043A /* UITextField+Extension.swift in Sources */,
+				66FF5BDF269A679400D2118E /* Extension+ReimbursementClaimViewController.swift in Sources */,
+				663D310C26906A3A0057043A /* LocalizerLanguage.swift in Sources */,
+				6609D171269A41D800F04A39 /* ClaimViewController.swift in Sources */,
+				663D310A26906A3A0057043A /* LocationHelper.swift in Sources */,
+				660D6F48270813F5006D27CE /* Extension+ManagerReimbursementRequestsViewController.swift in Sources */,
+				663D311126906A3A0057043A /* Animator.swift in Sources */,
+				663D310D26906A3A0057043A /* Localizer.swift in Sources */,
+				663BE9EA26DAB1610058544A /* ReimbursementRequestDetailsViewController.swift in Sources */,
+				6609D1612699FC8000F04A39 /* HomeViewController.swift in Sources */,
+				663D30FB26906A3A0057043A /* AlertMessage.swift in Sources */,
+				660D6F3A270812E7006D27CE /* ManagerReimbursementRequestsViewController.swift in Sources */,
+				66160AB2269F80F600D6BBD6 /* HomeModel.swift in Sources */,
+				6635D1D42693FC70004FC4F4 /* TabbarManager.swift in Sources */,
+				661A582926A8A40E00685C8C /* AddRequestModel.swift in Sources */,
+				663D311326906A3A0057043A /* APIService.swift in Sources */,
+				663D30F826906A3A0057043A /* HandelNavigation.swift in Sources */,
+				660D6F8327085A07006D27CE /* RequestDetailsModel.swift in Sources */,
+				66A3A17126A22E89005C8F96 /* RequestsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		660D6F3127080F29006D27CE /* ManagerRequestsTypeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660D6F3027080F29006D27CE /* Base */,
+				660D6F3327080F2C006D27CE /* ar */,
+			);
+			name = ManagerRequestsTypeViewController.xib;
+			sourceTree = "<group>";
+		};
+		660D6F42270813B5006D27CE /* ManagerReimbursementRequestsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660D6F41270813B5006D27CE /* Base */,
+				660D6F44270813B8006D27CE /* ar */,
+			);
+			name = ManagerReimbursementRequestsViewController.xib;
+			sourceTree = "<group>";
+		};
+		660D6F4D2708146D006D27CE /* ManagerReimbursementRequestsTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660D6F4C2708146D006D27CE /* Base */,
+				660D6F4F2708146F006D27CE /* ar */,
+			);
+			name = ManagerReimbursementRequestsTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		660D6F6227083601006D27CE /* ManagerAdvanceRequestsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660D6F6127083601006D27CE /* Base */,
+				660D6F6427083605006D27CE /* ar */,
+			);
+			name = ManagerAdvanceRequestsViewController.xib;
+			sourceTree = "<group>";
+		};
+		660D6F6727083689006D27CE /* ManagerAdvanceRequestsTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660D6F6627083689006D27CE /* Base */,
+				660D6F692708368C006D27CE /* ar */,
+			);
+			name = ManagerAdvanceRequestsTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		6612248926DEB59200DA281E /* InAdvanceRequestDetailsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6612248826DEB59200DA281E /* Base */,
+				6612248B26DEB59500DA281E /* ar */,
+			);
+			name = InAdvanceRequestDetailsViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B45E526D354C600F71500 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B45E426D354C600F71500 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		661B45E826D356A700F71500 /* LoginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B45E726D356A700F71500 /* Base */,
+				661B45EA26D356AA00F71500 /* ar */,
+			);
+			name = LoginViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B45ED26D3577100F71500 /* HomeTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B45EC26D3577100F71500 /* Base */,
+				661B45EF26D3577400F71500 /* ar */,
+			);
+			name = HomeTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		661B45F226D3579D00F71500 /* HomeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B45F126D3579D00F71500 /* Base */,
+				661B45F426D357A100F71500 /* ar */,
+			);
+			name = HomeViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B45F726D3581700F71500 /* ClaimViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B45F626D3581700F71500 /* Base */,
+				661B45F926D3581A00F71500 /* ar */,
+			);
+			name = ClaimViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B45FC26D358A500F71500 /* ReimbursementClaimTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B45FB26D358A500F71500 /* Base */,
+				661B45FE26D358A800F71500 /* ar */,
+			);
+			name = ReimbursementClaimTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		661B460126D358BB00F71500 /* ReimbursementClaimViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B460026D358BB00F71500 /* Base */,
+				661B460326D358BE00F71500 /* ar */,
+			);
+			name = ReimbursementClaimViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B460626D358EB00F71500 /* AdvanceClaimTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B460526D358EB00F71500 /* Base */,
+				661B460826D358EE00F71500 /* ar */,
+			);
+			name = AdvanceClaimTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		661B460B26D3591300F71500 /* AdvanceClaimViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B460A26D3591300F71500 /* Base */,
+				661B460D26D3591600F71500 /* ar */,
+			);
+			name = AdvanceClaimViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B461526D359C000F71500 /* AddReimbursementClaimViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B461426D359C000F71500 /* Base */,
+				661B461726D359C300F71500 /* ar */,
+			);
+			name = AddReimbursementClaimViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B461A26D35AA000F71500 /* AddAdvanceClaimViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B461926D35AA000F71500 /* Base */,
+				661B461C26D35AA300F71500 /* ar */,
+			);
+			name = AddAdvanceClaimViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B461F26D35B3800F71500 /* SideMenuViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B461E26D35B3800F71500 /* Base */,
+				661B462126D35B3B00F71500 /* ar */,
+			);
+			name = SideMenuViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B462426D35B5B00F71500 /* WalletViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B462326D35B5B00F71500 /* Base */,
+				661B462626D35B5E00F71500 /* ar */,
+			);
+			name = WalletViewController.xib;
+			sourceTree = "<group>";
+		};
+		661B462926D35C0E00F71500 /* PaymentWayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661B462826D35C0E00F71500 /* Base */,
+				661B462B26D35C1000F71500 /* ar */,
+			);
+			name = PaymentWayViewController.xib;
+			sourceTree = "<group>";
+		};
+		663BE9F426DAB3160058544A /* ReimbursementRequestDetailsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663BE9F326DAB3160058544A /* Base */,
+				663BE9F626DAB3190058544A /* ar */,
+			);
+			name = ReimbursementRequestDetailsViewController.xib;
+			sourceTree = "<group>";
+		};
+		663D30482690625E0057043A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663D30492690625E0057043A /* Base */,
+				661B45DF26D3549500F71500 /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		663D304D2690625E0057043A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				663D304E2690625E0057043A /* Base */,
+				661B45E026D3549500F71500 /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		66D96C9B2708FC8D00336678 /* ManagerReimbursementRequestDetailsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D96C9A2708FC8D00336678 /* Base */,
+				66D96C9D2708FC9000336678 /* ar */,
+			);
+			name = ManagerReimbursementRequestDetailsViewController.xib;
+			sourceTree = "<group>";
+		};
+		66D96CA02709062200336678 /* ManagerAdvanceRequestDetailsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D96C9F2709062200336678 /* Base */,
+				66D96CA22709062500336678 /* ar */,
+			);
+			name = ManagerAdvanceRequestDetailsViewController.xib;
+			sourceTree = "<group>";
+		};
+		66D96CB22709392000336678 /* MyProfileViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D96CB12709392000336678 /* Base */,
+				66D96CB42709392300336678 /* ar */,
+			);
+			name = MyProfileViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		663D30512690625E0057043A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		663D30522690625E0057043A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		663D30542690625E0057043A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398FE61F68FCB061CAACD411 /* Pods-HollyDesk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HollyDesk/HollyDesk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = B7NQ5QN87K;
+				INFOPLIST_FILE = HollyDesk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rania.HollyDeskApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		663D30552690625E0057043A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C64D65E135CB48C2D4CC6D4 /* Pods-HollyDesk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HollyDesk/HollyDesk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = B7NQ5QN87K;
+				INFOPLIST_FILE = HollyDesk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rania.HollyDeskApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		663D303A2690625D0057043A /* Build configuration list for PBXProject "HollyDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663D30512690625E0057043A /* Debug */,
+				663D30522690625E0057043A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663D30532690625E0057043A /* Build configuration list for PBXNativeTarget "HollyDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				663D30542690625E0057043A /* Debug */,
+				663D30552690625E0057043A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 663D30372690625D0057043A /* Project object */;
+}

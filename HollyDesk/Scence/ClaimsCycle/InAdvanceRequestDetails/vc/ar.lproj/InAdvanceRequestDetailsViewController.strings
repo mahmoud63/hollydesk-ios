@@ -1,0 +1,43 @@
+
+
+/* Class = "UILabel"; text = "Pay Date"; ObjectID = "6fn-bG-wlO"; */
+"6fn-bG-wlO.text" = "تاريخ الدفع";
+
+/* Class = "UILabel"; text = "Paid To"; ObjectID = "87Z-bU-16X"; */
+"87Z-bU-16X.text" = "مدفوع لشركة";
+
+/* Class = "UILabel"; text = "Upload or Scan Receipt"; ObjectID = "TdJ-Yb-WDp"; */
+"TdJ-Yb-WDp.text" = "ارفق فاتورتك هنا او قم بالتصفح";
+
+/* Class = "UILabel"; text = "RECEIPT UPLOAD"; ObjectID = "X4i-dZ-CRT"; */
+"X4i-dZ-CRT.text" = "الفواتير المرفقة";
+
+/* Class = "UIButton"; normalTitle = "Draft Reconciliation"; ObjectID = "auG-Ip-BnG"; */
+"auG-Ip-BnG.normalTitle" = "مشروع المصالحة";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "cL8-Xi-RI9"; */
+"cL8-Xi-RI9.text" = "الحالة";
+
+/* Class = "UILabel"; text = "Submission Date"; ObjectID = "dOl-62-dkP"; */
+"dOl-62-dkP.text" = "تاريخ تأكيد الطلب";
+
+/* Class = "UILabel"; text = "PROPERTIES"; ObjectID = "eGi-r1-m2q"; */
+"eGi-r1-m2q.text" = "الخصائص";
+
+/* Class = "UIButton"; normalTitle = "Submit Reconciliation"; ObjectID = "fpF-xl-ZhC"; */
+"fpF-xl-ZhC.normalTitle" = "تقديم المصالحة";
+
+/* Class = "UILabel"; text = "Team"; ObjectID = "jXv-nR-blP"; */
+"jXv-nR-blP.text" = "الفريق";
+
+/* Class = "UILabel"; text = "Total Amount Requested"; ObjectID = "lsK-Xb-dcZ"; */
+"lsK-Xb-dcZ.text" = "المبلغ الإجمالي المطلوب";
+
+/* Class = "UIButton"; normalTitle = "Edit Request"; ObjectID = "no6-Qb-fPV"; */
+"no6-Qb-fPV.normalTitle" = "تعديل الطلب";
+
+/* Class = "UILabel"; text = "Service paid for"; ObjectID = "oPO-QJ-QH5"; */
+"oPO-QJ-QH5.text" = "تم الدفع من أجل";
+
+/* Class = "UILabel"; text = "DETAILS"; ObjectID = "u2I-mF-i5X"; */
+"u2I-mF-i5X.text" = "التفاصيل";

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="58" id="eTP-KW-ejI" customClass="InAdvanceRequestDetailsTableViewCell" customModule="HollyDesk" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eTP-KW-ejI" id="zXX-Sl-l4h">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rjg-LQ-NzG">
+                        <rect key="frame" x="6" y="6" width="308" height="46"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warningIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="RBn-LS-F9O">
+                                <rect key="frame" x="6" y="4" width="48" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RBn-LS-F9O" secondAttribute="height" multiplier="4:3" id="22L-eE-zqN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.20000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="MainLightGray"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aov-A5-PJx">
+                                <rect key="frame" x="66" y="15" width="192" height="16"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ond-v3-9gN">
+                                <rect key="frame" x="262" y="0.0" width="46" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ond-v3-9gN" secondAttribute="height" multiplier="1:1" id="td8-hq-4fa"/>
+                                </constraints>
+                                <color key="tintColor" name="MainDarkRed"/>
+                                <state key="normal" image="trash" catalog="system"/>
+                                <connections>
+                                    <action selector="deleteButtonTapped:" destination="eTP-KW-ejI" eventType="touchUpInside" id="bVR-IQ-Ny7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="RBn-LS-F9O" firstAttribute="leading" secondItem="Rjg-LQ-NzG" secondAttribute="leading" constant="6" id="1Zd-H6-yBT"/>
+                            <constraint firstItem="ond-v3-9gN" firstAttribute="top" secondItem="Rjg-LQ-NzG" secondAttribute="top" id="8VQ-WX-xhw"/>
+                            <constraint firstAttribute="bottom" secondItem="RBn-LS-F9O" secondAttribute="bottom" constant="6" id="A0N-FC-FM0"/>
+                            <constraint firstItem="Aov-A5-PJx" firstAttribute="centerY" secondItem="Rjg-LQ-NzG" secondAttribute="centerY" id="Alh-eN-Zgc"/>
+                            <constraint firstAttribute="trailing" secondItem="ond-v3-9gN" secondAttribute="trailing" id="Boz-7N-sJP"/>
+                            <constraint firstAttribute="bottom" secondItem="ond-v3-9gN" secondAttribute="bottom" id="PC8-1G-0Ty"/>
+                            <constraint firstItem="RBn-LS-F9O" firstAttribute="top" secondItem="Rjg-LQ-NzG" secondAttribute="top" constant="4" id="YDz-yH-dlp"/>
+                            <constraint firstItem="ond-v3-9gN" firstAttribute="leading" secondItem="Aov-A5-PJx" secondAttribute="trailing" constant="4" id="efv-gs-6Cx"/>
+                            <constraint firstItem="Aov-A5-PJx" firstAttribute="leading" secondItem="RBn-LS-F9O" secondAttribute="trailing" constant="12" id="mVA-jF-FEb"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Rjg-LQ-NzG" firstAttribute="leading" secondItem="zXX-Sl-l4h" secondAttribute="leading" constant="6" id="3zx-6t-WGo"/>
+                    <constraint firstAttribute="bottom" secondItem="Rjg-LQ-NzG" secondAttribute="bottom" constant="6" id="DYP-gU-HbX"/>
+                    <constraint firstItem="Rjg-LQ-NzG" firstAttribute="top" secondItem="zXX-Sl-l4h" secondAttribute="top" constant="6" id="LKc-fS-oYC"/>
+                    <constraint firstAttribute="trailing" secondItem="Rjg-LQ-NzG" secondAttribute="trailing" constant="6" id="kdQ-Jm-gqp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Uor-So-qQf"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="deleteButton" destination="ond-v3-9gN" id="jeV-Ei-VU2"/>
+                <outlet property="imageNameLabel" destination="Aov-A5-PJx" id="Q9J-kw-12N"/>
+                <outlet property="requestImageView" destination="RBn-LS-F9O" id="jsT-Nz-ysQ"/>
+            </connections>
+            <point key="canvasLocation" x="-24.375" y="81.338028169014081"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <image name="warningIcon.png" width="33" height="33"/>
+        <namedColor name="MainDarkRed">
+            <color red="0.68599998950958252" green="0.075000002980232239" blue="0.075000002980232239" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainLightGray">
+            <color red="0.45500001311302185" green="0.51800000667572021" blue="0.57999998331069946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

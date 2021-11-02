@@ -1,0 +1,55 @@
+
+/* Class = "UILabel"; text = "Paid To"; ObjectID = "14x-Wc-ujt"; */
+"14x-Wc-ujt.text" = "مدفوع لشركة";
+
+/* Class = "UILabel"; text = "2021-07-06"; ObjectID = "1K9-La-t3U"; */
+"1K9-La-t3U.text" = "2021-07-06";
+
+/* Class = "UILabel"; text = "DETAILS"; ObjectID = "32X-Yo-gQG"; */
+"32X-Yo-gQG.text" = "التفاصيل";
+
+/* Class = "UILabel"; text = "Submission Date"; ObjectID = "3rf-Av-RlW"; */
+"3rf-Av-RlW.text" = "تاريخ تأكيد الطلب";
+
+/* Class = "UILabel"; text = "2021-07-06"; ObjectID = "7mR-8F-WAn"; */
+"7mR-8F-WAn.text" = "2021-07-06";
+
+/* Class = "UILabel"; text = "ATTACHMENTS"; ObjectID = "8q4-LW-vI8"; */
+"8q4-LW-vI8.text" = "المرفقات";
+
+/* Class = "UILabel"; text = "Pay Date"; ObjectID = "BBc-fO-np6"; */
+"BBc-fO-np6.text" = "تاريخ الدفع";
+
+/* Class = "UILabel"; text = "Team"; ObjectID = "C61-S7-5g2"; */
+"C61-S7-5g2.text" = "الفريق";
+
+/* Class = "UILabel"; text = "Total Amount Requested"; ObjectID = "CSh-OT-Roc"; */
+"CSh-OT-Roc.text" = "المبلغ الإجمالي المطلوب";
+
+/* Class = "UILabel"; text = "Service paid for"; ObjectID = "JZe-CR-8MF"; */
+"JZe-CR-8MF.text" = "تم الدفع من أجل";
+
+/* Class = "UILabel"; text = "2021-07-06"; ObjectID = "OOW-Ra-357"; */
+"OOW-Ra-357.text" = "2021-07-06";
+
+/* Class = "UIButton"; normalTitle = "Edit Request"; ObjectID = "P9c-Ox-264"; */
+"P9c-Ox-264.normalTitle" = "تعديل الطلب";
+
+/* Class = "UILabel"; text = "2021-07-06"; ObjectID = "b6B-u4-mln"; */
+"b6B-u4-mln.text" = "2021-07-06";
+
+/* Class = "UILabel"; text = "2021-07-06"; ObjectID = "b9P-ih-XZy"; */
+"b9P-ih-XZy.text" = "2021-07-06";
+
+/* Class = "UILabel"; text = "2021-07-06"; ObjectID = "lO8-L1-gvj"; */
+"lO8-L1-gvj.text" = "2021-07-06";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "tep-fi-Sil"; */
+"tep-fi-Sil.text" = "الحالة";
+
+/* Class = "UILabel"; text = "2021-07-06"; ObjectID = "u5z-Lv-Zn4"; */
+"u5z-Lv-Zn4.text" = "2021-07-06";
+
+/* Class = "UILabel"; text = "PROPERTIES"; ObjectID = "ucP-jv-YOg"; */
+"ucP-jv-YOg.text" = "الخصائص";
+

@@ -1,0 +1,48 @@
+
+/* Class = "UITextField"; placeholder = "Paid To"; ObjectID = "1Vj-z0-xBd"; */
+"1Vj-z0-xBd.placeholder" = "مدفوع لشركة";
+
+/* Class = "UITextField"; placeholder = "Currency"; ObjectID = "5p7-m6-JvN"; */
+"5p7-m6-JvN.placeholder" = "عملة";
+
+/* Class = "UILabel"; text = "DETAILS"; ObjectID = "9Ij-PM-4kk"; */
+"9Ij-PM-4kk.text" = "التفاصيل";
+
+/* Class = "UILabel"; text = "I Already Received Money In Cash"; ObjectID = "Isy-Mh-1uZ"; */
+"Isy-Mh-1uZ.text" = "لا تقم بتحديد المربع الا إذا كنت استلمت المبلغ مسبقا من الشركة";
+
+/* Class = "UILabel"; text = "don't check box if you don't recive money befor from company"; ObjectID = "N5d-nP-wZ7"; */
+"N5d-nP-wZ7.text" = "لا تقم بتحديد المربع الا إذا كنت استلمت المبلغ مسبقا من الشركة";
+
+/* Class = "UILabel"; text = "Paid For"; ObjectID = "NRT-Rt-kRe"; */
+"NRT-Rt-kRe.text" = "مدفوع لأجل";
+
+/* Class = "UILabel"; text = "Paid Date"; ObjectID = "Pei-6B-gip"; */
+"Pei-6B-gip.text" = "تاريخ الدفع";
+
+/* Class = "UILabel"; text = "Total Amount Due"; ObjectID = "Qz6-ta-UZ7"; */
+"Qz6-ta-UZ7.text" = "إجمالي المبلغ المستحق";
+
+/* Class = "UITextField"; placeholder = "DD / MM / YYYY"; ObjectID = "VKN-aD-UWS"; */
+"VKN-aD-UWS.placeholder" = "DD / MM / YYYY";
+
+/* Class = "UITextField"; placeholder = "Total Amount Due"; ObjectID = "fwo-oK-jvB"; */
+"fwo-oK-jvB.placeholder" = "إجمالي المبلغ المستحق";
+
+/* Class = "UIButton"; normalTitle = "Submit New Request"; ObjectID = "g16-Ck-t4f"; */
+"g16-Ck-t4f.normalTitle" = "إرسال طلب جديد";
+
+/* Class = "UILabel"; text = "Paid To"; ObjectID = "gQI-PE-pn8"; */
+"gQI-PE-pn8.text" = "مدفوع لشركة";
+
+/* Class = "UILabel"; text = "Upload or Scan Receipt"; ObjectID = "ln8-p2-9NC"; */
+"ln8-p2-9NC.text" = "ارفق فاتورتك هنا او قم بالتصفح";
+
+/* Class = "UILabel"; text = "Currency"; ObjectID = "rjo-Gw-zKC"; */
+"rjo-Gw-zKC.text" = "عملة";
+
+/* Class = "UITextField"; placeholder = "Paid For"; ObjectID = "w9h-Sl-Dds"; */
+"w9h-Sl-Dds.placeholder" = "مدفوع لأجل";
+
+/* Class = "UILabel"; text = "RECEIPT UPLOAD"; ObjectID = "y2b-fH-Rhb"; */
+"y2b-fH-Rhb.text" = "الفواتير المرفقة";

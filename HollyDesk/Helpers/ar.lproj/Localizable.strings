@@ -1,0 +1,56 @@
+"BANK" = "بنك";
+"EWALLET" = "المحفظة الإلكترونية";
+"pending" = "قيد الانتظار";
+"approved" = "تم القبول";
+"declined" = "تم الرفض";
+"reconciliation approved" = "تمت الموافقة على التسوية";
+
+"enter password more than 6 item" = "ادخل كلمة مرور اكثر من ٦ عناصر";
+"There is no connection" =  "لا يوجد اتصال بالانترنت";
+"enter valid email" = "ادخل بريد الكترونى صحيح";
+"enter total amount" =  "ادخل اجمالى الكميه";
+"enter currency" =  "ادخل العمله";
+"enter paid to" =  "ادخل اسم المدفوع له";
+"enter paid for" = "ادخل السبب المدفوع لأجله";
+"enter paid date" =  "ادخل تاريخ الدفع";
+"enter paid images" =  "ادخل صور الدفع";
+"enter name" = "ادخل الاسم";
+"enter bank name" =  "ادخل اسم البنك";
+"enter bank account number" = "ادخل رقم الحساب البنكى";
+"enter bank address" = "ادخل عنوان البنك";
+"enter valid phone" = "ادخل رقم هاتف صحيح";
+"please check isReceive First" = "من فضلك , اضغط تم الاستلام اولا";
+"please choose payment way first" = "من فضلك اختر طريقة الدفع اولا";
+"choose amount please" = "من فضلك اختر الكمية";
+    
+"Home" = "الرئيسيه";
+"More" = "المزيد";
+"My Requests" = "طلباتي";
+"in advance request" = "طلب مسبق";
+"Reimbursement Requests" = "مطالبة سداد";
+"Wallet" =  "المحفظة";
+"Request Details" = "تفاصيل الطلب";
+"Payment Way" = "صرف المستحقات";
+"My Requests" = "طلباتي";
+"New In Advance Request" = "طلب جديد مقدم";
+"New Request" = "طلب جديد";
+"Seems like you don't have any requests here... Make a request and get reimbursed in seconds!" = "يبدو أنه ليس لديك أي طلبات هنا ... قدم طلبًا واحصل على تعويض في ثوانٍ!";
+"profile" = "الملف الشخصى";
+"Cancel" = "إغلاق";
+"Ok" = "تم";
+"Edit Request" = "تعديل الطلب";
+"Add New Request" = "إضافة طلب جديد";
+"Save" = "حفظ";
+"Hello" = "مرحبا";
+"EGP" = "جنيه مصري";
+"Team Request" = "طلبات الفريق";
+
+"Reconciliation approved" = "تمت الموافقة على التسوية";
+"Pending"= "قيد الانتظار";
+"Declined" = "تم القبول";
+"Approved" = "تم الرفض";
+"My Profile" = "الملف الشخصي";
+
+"enter your first name" = "ادخل الاسم الاول";
+"enter your last name" = "ادخل اسم العائله";
+"enter your work title" = "ادخل الاسم الوظيفي";

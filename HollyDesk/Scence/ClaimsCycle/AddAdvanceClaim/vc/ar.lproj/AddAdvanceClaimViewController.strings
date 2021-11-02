@@ -1,0 +1,45 @@
+
+/* Class = "UITextField"; placeholder = "Currency"; ObjectID = "0Us-t0-fZH"; */
+"0Us-t0-fZH.placeholder" = "عملة";
+
+/* Class = "UILabel"; text = "In Advance Requests Receipt Upload Policy"; ObjectID = "9Cc-bh-t7i"; */
+"9Cc-bh-t7i.text" = "سياسة تحميل إيصال الطلبات المسبقة";
+
+/* Class = "UILabel"; text = "Total Amount Due"; ObjectID = "B6Z-Ow-U57"; */
+"B6Z-Ow-U57.text" = "إجمالي المبلغ المستحق";
+
+/* Class = "UILabel"; text = "Paid For"; ObjectID = "PYI-Ew-7oh"; */
+"PYI-Ew-7oh.text" = "مدفوع لأجل";
+
+/* Class = "UITextField"; placeholder = "Paid To"; ObjectID = "U2I-hy-RPj"; */
+"U2I-hy-RPj.placeholder" = "مدفوع لشركة";
+
+/* Class = "UILabel"; text = "In Advance Requests require you to upload the receipts once received in order to reconcile your request with the company. In Advance Policy"; ObjectID = "Y9c-1m-aBG"; */
+"Y9c-1m-aBG.text" = "تتطلب منك الطلبات المسبقة تحميل الإيصالات بمجرد استلامها من أجل التوفيق بين طلبك مع الشركة. سياسة مسبقة";
+
+/* Class = "UITextField"; placeholder = "Paid For"; ObjectID = "aKT-kp-vyq"; */
+"aKT-kp-vyq.placeholder" = "مدفوع لأجل";
+
+/* Class = "UITextField"; placeholder = "Total Amount Due"; ObjectID = "dQl-Jd-i2F"; */
+"dQl-Jd-i2F.placeholder" = "إجمالي المبلغ المستحق";
+
+/* Class = "UILabel"; text = "Paid To"; ObjectID = "dcL-6l-Cuv"; */
+"dcL-6l-Cuv.text" = "مدفوع لشركة";
+
+/* Class = "UILabel"; text = "RECEIPT UPLOAD"; ObjectID = "g6G-eq-zmO"; */
+"g6G-eq-zmO.text" = "الفواتير المرفقة";
+
+/* Class = "UIButton"; normalTitle = "CONFIRM"; ObjectID = "mLo-42-v5P"; */
+"mLo-42-v5P.normalTitle" = "تأكيد";
+
+/* Class = "UITextField"; placeholder = "DD / MM / YYYY"; ObjectID = "qyc-WG-WP8"; */
+"qyc-WG-WP8.placeholder" = "DD / MM / YYYY";
+
+/* Class = "UILabel"; text = "Paid Date"; ObjectID = "spH-AU-xTg"; */
+"spH-AU-xTg.text" = "تاريخ الدفع";
+
+/* Class = "UILabel"; text = "DETAILS"; ObjectID = "u2m-hF-q7G"; */
+"u2m-hF-q7G.text" = "التفاصيل";
+
+/* Class = "UILabel"; text = "Currency"; ObjectID = "zmc-6L-p5o"; */
+"zmc-6L-p5o.text" = "عملة";

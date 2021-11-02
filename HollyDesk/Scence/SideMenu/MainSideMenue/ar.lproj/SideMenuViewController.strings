@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Menu"; ObjectID = "690-gM-0qq"; */
+"690-gM-0qq.text" = "القائمه";
+
+/* Class = "UILabel"; text = "My Profile"; ObjectID = "EeW-qp-8EH"; */
+"EeW-qp-8EH.text" = "الملف الشخصي";
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "jU9-1g-LyH"; */
+"jU9-1g-LyH.text" = "تسجيل الخروج";

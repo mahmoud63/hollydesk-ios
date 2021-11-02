@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "DENIED"; ObjectID = "1JH-1q-phV"; */
+"1JH-1q-phV.text" = "الطلبات المرفوضة";
+
+/* Class = "UILabel"; text = "PENDING"; ObjectID = "8Yq-vO-Emt"; */
+"8Yq-vO-Emt.text" = "الطلبات المؤجلة";
+
+/* Class = "UILabel"; text = "APPROVED"; ObjectID = "yUF-R7-5Be"; */
+"yUF-R7-5Be.text" = "الطلبات المقبولة";

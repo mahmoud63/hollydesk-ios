@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "in advance request"; ObjectID = "79h-lQ-orc"; */
+"79h-lQ-orc.text" = "طلب مسبق";
+
+/* Class = "UILabel"; text = "i spent an amount from my pocket and want to get reimbursed"; ObjectID = "EAg-0g-nhh"; */
+"EAg-0g-nhh.text" = "لقد أنفقت مبلغًا من جيبي وأريد استرداده.";
+
+/* Class = "UILabel"; text = "i want to request money in advance for company expenses and then reconcile"; ObjectID = "W7j-pi-ENE"; */
+"W7j-pi-ENE.text" = "أرغب في طلب المال مقدمًا لتغطية نفقات الشركة ثم تسويتها.";
+
+/* Class = "UILabel"; text = "SELECT TYPE OF REQUESTS"; ObjectID = "bBk-Bu-tP6"; */
+"bBk-Bu-tP6.text" = "اختر نوع الطلب";
+
+/* Class = "UILabel"; text = "Reimbursement Claim"; ObjectID = "hXW-QS-ocm"; */
+"hXW-QS-ocm.text" = "مطالبة سداد";

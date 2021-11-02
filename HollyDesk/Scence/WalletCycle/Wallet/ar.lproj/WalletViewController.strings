@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Max Available = "; ObjectID = "2uM-sh-YBM"; */
+"2uM-sh-YBM.text" = "المتاح = ";
+
+/* Class = "UILabel"; text = "My Wallet Balance"; ObjectID = "4OA-dZ-NsM"; */
+"4OA-dZ-NsM.text" = "رصيد محفظتي";
+
+/* Class = "UILabel"; text = "Max Available = "; ObjectID = "Q0F-JZ-ecy"; */
+"Q0F-JZ-ecy.text" = "اقصي المتاح = ";
+
+/* Class = "UILabel"; text = "Cash out a portion of the available balance."; ObjectID = "QHh-cd-R6t"; */
+"QHh-cd-R6t.text" = "سحب جزء من الرصيد.";
+
+/* Class = "UITextField"; placeholder = "1357"; ObjectID = "Tqr-8B-Zid"; */
+"Tqr-8B-Zid.placeholder" = "1357";
+
+/* Class = "UILabel"; text = "Cash out all available balance."; ObjectID = "Yfy-UT-gYG"; */
+"Yfy-UT-gYG.text" = "سحب الرصيد بالكامل.";
+
+/* Class = "UIButton"; normalTitle = "SELECT CASH OUT METHOD"; ObjectID = "aWQ-Td-YRw"; */
+"aWQ-Td-YRw.normalTitle" = "اختر طريقة صرف المستحقات";
+
+/* Class = "UILabel"; text = "1357"; ObjectID = "gEY-5L-S7A"; */
+"gEY-5L-S7A.text" = "1357";
+
+/* Class = "UILabel"; text = "Cash Out"; ObjectID = "oyS-Eu-8nc"; */
+"oyS-Eu-8nc.text" = "المصروفات";
+
+/* Class = "UILabel"; text = "Holly Desk"; ObjectID = "rde-JK-7Pq"; */
+"rde-JK-7Pq.text" = "Holly Desk";
+
+/* Class = "UILabel"; text = " EGP Balance"; ObjectID = "ute-E7-aVE"; */
+"ute-E7-aVE.text" = " الرصيد بالجنيه المصري";

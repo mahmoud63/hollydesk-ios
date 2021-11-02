@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "PENDING"; ObjectID = "AvO-1d-GQa"; */
+"AvO-1d-GQa.text" = "الطلبات المؤجلة";
+
+/* Class = "UIButton"; normalTitle = "+"; ObjectID = "bzA-a3-Wws"; */
+"bzA-a3-Wws.normalTitle" = "+";
+
+/* Class = "UILabel"; text = "DENIED"; ObjectID = "fXM-qZ-1ax"; */
+"fXM-qZ-1ax.text" = "الطلبات المرفوضة";
+
+/* Class = "UILabel"; text = "APPROVED"; ObjectID = "riD-L8-ScL"; */
+"riD-L8-ScL.text" = "الطلبات المقبولة";
